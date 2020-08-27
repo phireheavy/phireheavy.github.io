@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web on phireheavyindustries</title>
-    <link>https://phireheavyindustries.com/tags/web/</link>
+    <link>https://www.phireheavyindustries.com/tags/web/</link>
     <description>Recent content in Web on phireheavyindustries</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>PT</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://phireheavyindustries.com/tags/web/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.phireheavyindustries.com/tags/web/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>phireheavyindustries.com</title>
-      <link>https://phireheavyindustries.com/web/phireheavyindustries.com/</link>
+      <link>https://www.phireheavyindustries.com/web/phireheavyindustries.com/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://phireheavyindustries.com/web/phireheavyindustries.com/</guid>
+      <guid>https://www.phireheavyindustries.com/web/phireheavyindustries.com/</guid>
       <description>Yes, it&amp;rsquo;s this site. This is made using the Hugo framework and is hosted on Porkbun. I find that the static content generator is a great tool to use for personal and small sites, but as any project, this is a work in progress. It&amp;rsquo;s still missing:
  Integration with Flickr Restricted access to some areas (so far, looks like it&amp;rsquo;s not possible) Some blog content  </description>
     </item>

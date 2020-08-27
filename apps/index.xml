@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Apps on phireheavyindustries</title>
-    <link>https://phireheavyindustries.com/apps/</link>
+    <link>https://www.phireheavyindustries.com/apps/</link>
     <description>Recent content in Apps on phireheavyindustries</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>PT</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Tue, 11 Aug 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://phireheavyindustries.com/apps/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.phireheavyindustries.com/apps/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Do or do not</title>
-      <link>https://phireheavyindustries.com/apps/do-it-now/</link>
+      <link>https://www.phireheavyindustries.com/apps/do-it-now/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://phireheavyindustries.com/apps/do-it-now/</guid>
+      <guid>https://www.phireheavyindustries.com/apps/do-it-now/</guid>
       <description>Most to-do and objetive tracking apps are either too cumbersome or too simple, both of which put me off from using them. I tend to revert to an excel file where i can name a task, prioritize it, write a few notes, set a date and routinely update a percentage to indicate how much of a certain task is done. My challenge is to build an app with a free backend so i can use it anywhere.</description>
     </item>
     
     <item>
       <title>Untitled C# AI Study</title>
-      <link>https://phireheavyindustries.com/apps/untitled-ai-study/</link>
+      <link>https://www.phireheavyindustries.com/apps/untitled-ai-study/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://phireheavyindustries.com/apps/untitled-ai-study/</guid>
+      <guid>https://www.phireheavyindustries.com/apps/untitled-ai-study/</guid>
       <description>This is an attempt to establish some sort of AI programming routines in order to classify strings of text as positive/negative or neutral. The objetive is to find if such a thing is possible with C#, how hard is it and what kind of resources will be needed.
 Used Resources ML.NET - Machine Learning Introduction https://www.youtube.com/watch?v=X0DQjfW09kA&amp;amp;list=PLdo4fOcmZ0oUDTvk5XMNues09FnuB_D0u
 Status 2020-08-20 It&amp;rsquo;s surprisingly easy. The worst thing about it is to get a reliable dataset.</description>
@@ -34,10 +34,10 @@ Status 2020-08-20 It&amp;rsquo;s surprisingly easy. The worst thing about it is 
     
     <item>
       <title>Untitled MessageBoard API</title>
-      <link>https://phireheavyindustries.com/apps/untitled-api/</link>
+      <link>https://www.phireheavyindustries.com/apps/untitled-api/</link>
       <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://phireheavyindustries.com/apps/untitled-api/</guid>
+      <guid>https://www.phireheavyindustries.com/apps/untitled-api/</guid>
       <description>This is a project abandoned by a client but i have decided to finish it myself. It is a small social network oriented to allow users to comment on various topics or products. The objetive was to have several discussions rooms where one supervisor or admin would launch a topic of discussion and then he/she would create teams based on gender, age and location. The users would then be allowed to voice their opinions on the matter at hand.</description>
     </item>
     
