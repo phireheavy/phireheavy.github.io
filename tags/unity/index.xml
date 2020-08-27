@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Unity on phireheavyindustries</title>
-    <link>http://phireheavyindustries.com/tags/unity/</link>
+    <link>https://phireheavyindustries.com/tags/unity/</link>
     <description>Recent content in Unity on phireheavyindustries</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>PT</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://phireheavyindustries.com/tags/unity/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://phireheavyindustries.com/tags/unity/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Zenbreaker</title>
-      <link>http://phireheavyindustries.com/games/zenbreaker/</link>
+      <link>https://phireheavyindustries.com/games/zenbreaker/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://phireheavyindustries.com/games/zenbreaker/</guid>
+      <guid>https://phireheavyindustries.com/games/zenbreaker/</guid>
       <description>Was a simple experiment in Unity to better understand the mechanics of what it takes to build a simple game, including launching and publishing to the Play Store. It has since been abandoned.</description>
     </item>
     
