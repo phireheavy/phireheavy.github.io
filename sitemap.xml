@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.phireheavyindustries.com/blog/2020-08-30/</loc>
+    <lastmod>2020-08-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.phireheavyindustries.com/tags/android/</loc>
     <lastmod>2020-08-30T00:00:00+00:00</lastmod>
   </url>
@@ -18,17 +23,22 @@
   </url>
   
   <url>
-    <loc>https://www.phireheavyindustries.com/blog/2020-08-30/</loc>
-    <lastmod>2020-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.phireheavyindustries.com/</loc>
     <lastmod>2020-08-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.phireheavyindustries.com/tags/</loc>
+    <lastmod>2020-08-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.phireheavyindustries.com/web/unnamed-start-page/</loc>
+    <lastmod>2020-08-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.phireheavyindustries.com/tags/web/</loc>
     <lastmod>2020-08-30T00:00:00+00:00</lastmod>
   </url>
   
@@ -119,11 +129,6 @@
   
   <url>
     <loc>https://www.phireheavyindustries.com/web/phireheavyindustries.com/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.phireheavyindustries.com/tags/web/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url>
   

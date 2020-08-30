@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>PT</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.phireheavyindustries.com/tags/web/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>unnamed startpage</title>
+      <link>https://www.phireheavyindustries.com/web/unnamed-start-page/</link>
+      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.phireheavyindustries.com/web/unnamed-start-page/</guid>
+      <description>A very early idea for a responsive and dynamic start page that should open for default on the browser.
+ It should list some news with RSS Maybe some email information as well Would be nice to list some hardware info like remote drive space  </description>
+    </item>
     
     <item>
       <title>phireheavyindustries.com</title>

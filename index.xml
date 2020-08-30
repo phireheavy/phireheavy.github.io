@@ -13,12 +13,22 @@
     
     
     <item>
-      <title>Forged</title>
+      <title>2020-08-30</title>
       <link>https://www.phireheavyindustries.com/blog/2020-08-30/</link>
       <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.phireheavyindustries.com/blog/2020-08-30/</guid>
-      <description>There&amp;rsquo;s a new update to the to do app that is being developed for Android and Firebase.</description>
+      <description>There&amp;rsquo;s a new update to the to do app that is being developed for Android and Firebase. I&amp;rsquo;ve also added a new projet to the web development section.</description>
+    </item>
+    
+    <item>
+      <title>unnamed startpage</title>
+      <link>https://www.phireheavyindustries.com/web/unnamed-start-page/</link>
+      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.phireheavyindustries.com/web/unnamed-start-page/</guid>
+      <description>A very early idea for a responsive and dynamic start page that should open for default on the browser.
+ It should list some news with RSS Maybe some email information as well Would be nice to list some hardware info like remote drive space  </description>
     </item>
     
     <item>
