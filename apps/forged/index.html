@@ -36,7 +36,7 @@
 <meta itemprop="description" content="Most to-do and objetive tracking apps are either too cumbersome or too simple, both of which put me off from using them. I tend to revert to an excel file where i can name a task, prioritize it, write a few notes, set a date and routinely update a percentage to indicate how much of a certain task is done. My challenge is to build an app with a free backend so i can use it anywhere.">
 <meta itemprop="datePublished" content="2020-08-11T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2020-08-11T00:00:00+00:00" />
-<meta itemprop="wordCount" content="206">
+<meta itemprop="wordCount" content="437">
 
 
 
@@ -141,21 +141,59 @@
 </li>
 </ul>
 <p>For now, i&rsquo;m researching the viability of using Google Firebase for the backend.</p>
+<hr>
 <h3 id="used-resources">Used Resources</h3>
 <p>I&rsquo;ve been following these tutorials:</p>
 <h4 id="firebase-firestore-tutorial">Firebase Firestore Tutorial</h4>
 <p><a href="https://www.youtube.com/watch?v=4d-gIPGzmK4">https://www.youtube.com/watch?v=4d-gIPGzmK4</a></p>
 <h4 id="learn-how-to-build-an-android-10-app---using-kotlin---development-masterclass-7-hours-free-course">Learn How to Build an Android 10 App - Using Kotlin - Development Masterclass 7+ hours FREE Course</h4>
 <p><a href="https://www.youtube.com/watch?v=uRyvNKRkwbs">https://www.youtube.com/watch?v=uRyvNKRkwbs</a></p>
+<h4 id="kotlin-firebase-messenger">Kotlin Firebase Messenger</h4>
+<p><a href="https://www.youtube.com/watch?v=ihJGxFu2u9Q">https://www.youtube.com/watch?v=ihJGxFu2u9Q</a></p>
+<p>Although it is somewhat outdated and uses the realtime database, for most of the UI interactions it was very informative.</p>
+<hr>
 <h4 id="status">Status</h4>
 <ul>
-<li>Planning</li>
-<li>The name sucks, it&rsquo;s temporary</li>
+<li>Almost done, deciding on wether to finish it or move on</li>
+<li>Features missing:
+<ul>
+<li>editing any of the fields of a task</li>
+<li>adding a percentage that would indicate how much of a task is left</li>
+<li>grouping tasks by tags
+<ul>
+<li>creation and management of tags</li>
+</ul>
+</li>
+<li>statistics on tags</li>
+<li>creating tasks for other users</li>
+<li>filtering tasks by date, percentage</li>
+<li>reminders and notifications about tasks on the due date</li>
+</ul>
+</li>
 </ul>
 <hr>
-<h4 id="updates">Updates</h4>
 <h5 id="2020-08-30">2020-08-30</h5>
 <p>I have built the first steps of this app which include a login screen, a firebase app and connection between these two, which seems to be working. The next step is to define the database structure on the firebase side of things.</p>
+<h5 id="2020-09-09">2020-09-09</h5>
+<p>This app is mostly done. I have a few remarks about this experience:</p>
+<ul>
+<li>The user registration and authentication using the firebase auth module is very straightforward and easy to use</li>
+<li>The modeling of the data in firebase is weird, mostly because it goes against of much of what i know. Specifically, a hierarchy is discouraged as it would add more database operations and would increase the size of the data being transmitted between client and server, which has an impact on the value that an app would cost by being hosted on firebase.
+<ul>
+<li>due to this i ended up following a few tips like (this)[https://stackoverflow.com/questions/58003147/how-to-structure-recurring-tasks-for-an-user-on-firestore] in order to have a flat table design</li>
+</ul>
+</li>
+<li>kotlin is somewhat complicated and not very intuitive</li>
+<li>running the android emulator is buggy, i had to clean the cache and reboot the emulator multiple times</li>
+</ul>
+<h6 id="screenshots">screenshots</h6>
+<hr>
+<p>login screen</p>
+<h2 id="loginimg2020-09-0900_59_51-windowpng"><img src="/img/2020-09-0900_59_51-Window.png" alt="login"></h2>
+<p>task list screen</p>
+<h2 id="tasklistimg2020-09-0901_03_24-windowpng"><img src="/img/2020-09-0901_03_24-Window.png" alt="tasklist"></h2>
+<p>new task screen</p>
+<p><img src="/img/2020-09-0901_08_09-Window.png" alt="new task"></p>
 
             </div>
         </article>
