@@ -7,10 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>PT</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 04 Oct 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.phireheavyindustries.com/tags/web/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sun, 04 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2020-10-04</title>
+      <link>https://www.phireheavyindustries.com/blog/2020-10-04/</link>
+      <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.phireheavyindustries.com/blog/2020-10-04/</guid>
+      <description>I&amp;rsquo;ve added a new web application, written in python.</description>
+    </item>
     
     <item>
       <title>chuppy</title>
@@ -20,15 +25,6 @@
       <guid>https://www.phireheavyindustries.com/web/chuppy/</guid>
       <description>This is an application of the Beautiful Soup library in Python. I used it to get and store a number of posts from a well known portuguese message board. All the posts would be separated in content, user, section, url and an unique identifier.
 Python is somewhat weird to use for someone like me who is more experienced in C# and Java but i can see why it has such a following for developers still learning.</description>
-    </item>
-    
-    <item>
-      <title>2020-09-09</title>
-      <link>https://www.phireheavyindustries.com/blog/2020-10-04/</link>
-      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.phireheavyindustries.com/blog/2020-10-04/</guid>
-      <description>I&amp;rsquo;ve added a new web application, written in python.</description>
     </item>
     
     <item>

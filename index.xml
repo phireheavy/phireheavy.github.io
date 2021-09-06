@@ -7,10 +7,43 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>PT</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 04 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021-09-06</title>
+      <link>https://www.phireheavyindustries.com/blog/2021-09-06/</link>
+      <pubDate>Mon, 06 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.phireheavyindustries.com/blog/2021-09-06/</guid>
+      <description>Re-organization of the site. It&amp;rsquo;s been almost a year since this site has been updated and i felt the need to clean it up a little.</description>
+    </item>
     
-	<atom:link href="https://www.phireheavyindustries.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bass</title>
+      <link>https://www.phireheavyindustries.com/bass/</link>
+      <pubDate>Mon, 06 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.phireheavyindustries.com/bass/</guid>
+      <description>I&amp;rsquo;ve tried for several years to getting some bass practice going. Last year, as the world came to a stop i thought that this would be the time to seriously invest in this hobby. For that, i researched what would be the best online course and ended up buying the Beginner to Badass.
+2021-09-06 So far it&amp;rsquo;s been a nice course to follow along, i&amp;rsquo;m currently stuck trying to play Billie Jean, by Michael Jackson.</description>
+    </item>
     
+    <item>
+      <title>RC</title>
+      <link>https://www.phireheavyindustries.com/rc/</link>
+      <pubDate>Mon, 06 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.phireheavyindustries.com/rc/</guid>
+      <description>RC Cars are a new interest of mine that developed during the pandemic. I currently run around with a Traxxas Slash 2WD.</description>
+    </item>
+    
+    <item>
+      <title>2020-10-04</title>
+      <link>https://www.phireheavyindustries.com/blog/2020-10-04/</link>
+      <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.phireheavyindustries.com/blog/2020-10-04/</guid>
+      <description>I&amp;rsquo;ve added a new web application, written in python.</description>
+    </item>
     
     <item>
       <title>chuppy</title>
@@ -29,15 +62,6 @@ Python is somewhat weird to use for someone like me who is more experienced in C
       
       <guid>https://www.phireheavyindustries.com/blog/2020-09-09/</guid>
       <description>The android app is mostly done, i&amp;rsquo;ve added a few screenshots and some information about the logic for this app and a couple of notes on the development.</description>
-    </item>
-    
-    <item>
-      <title>2020-09-09</title>
-      <link>https://www.phireheavyindustries.com/blog/2020-10-04/</link>
-      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.phireheavyindustries.com/blog/2020-10-04/</guid>
-      <description>I&amp;rsquo;ve added a new web application, written in python.</description>
     </item>
     
     <item>
@@ -77,15 +101,6 @@ Python is somewhat weird to use for someone like me who is more experienced in C
       <description>This is an attempt to establish some sort of AI programming routines in order to classify strings of text as positive/negative or neutral. The objetive is to find if such a thing is possible with C#, how hard is it and what kind of resources will be needed.
 Used Resources ML.NET - Machine Learning Introduction https://www.youtube.com/watch?v=X0DQjfW09kA&amp;amp;list=PLdo4fOcmZ0oUDTvk5XMNues09FnuB_D0u
 Status 2020-08-20 It&amp;rsquo;s surprisingly easy. The worst thing about it is to get a reliable dataset.</description>
-    </item>
-    
-    <item>
-      <title>Bass</title>
-      <link>https://www.phireheavyindustries.com/bass/</link>
-      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.phireheavyindustries.com/bass/</guid>
-      <description>Nothing here yet.</description>
     </item>
     
     <item>

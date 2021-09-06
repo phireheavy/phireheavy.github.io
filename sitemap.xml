@@ -1,186 +1,124 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
+    <loc>https://www.phireheavyindustries.com/blog/2021-09-06/</loc>
+    <lastmod>2021-09-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.phireheavyindustries.com/bass/</loc>
+    <lastmod>2021-09-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.phireheavyindustries.com/blog/</loc>
+    <lastmod>2021-09-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.phireheavyindustries.com/</loc>
+    <lastmod>2021-09-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.phireheavyindustries.com/rc/</loc>
+    <lastmod>2021-09-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.phireheavyindustries.com/tags/site/</loc>
+    <lastmod>2021-09-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.phireheavyindustries.com/tags/</loc>
+    <lastmod>2021-09-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.phireheavyindustries.com/tags/update/</loc>
+    <lastmod>2021-09-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.phireheavyindustries.com/blog/2020-10-04/</loc>
+    <lastmod>2020-10-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.phireheavyindustries.com/web/chuppy/</loc>
     <lastmod>2020-10-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.phireheavyindustries.com/</loc>
-    <lastmod>2020-10-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.phireheavyindustries.com/tags/python/</loc>
     <lastmod>2020-10-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.phireheavyindustries.com/tags/sqlite/</loc>
     <lastmod>2020-10-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.phireheavyindustries.com/tags/</loc>
-    <lastmod>2020-10-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.phireheavyindustries.com/tags/web/</loc>
     <lastmod>2020-10-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.phireheavyindustries.com/blog/2020-09-09/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.phireheavyindustries.com/blog/2020-10-04/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.phireheavyindustries.com/tags/android/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.phireheavyindustries.com/blog/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.phireheavyindustries.com/tags/firebase/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.phireheavyindustries.com/blog/2020-08-30/</loc>
     <lastmod>2020-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.phireheavyindustries.com/web/unnamed-start-page/</loc>
     <lastmod>2020-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.phireheavyindustries.com/tags/ai/</loc>
     <lastmod>2020-08-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.phireheavyindustries.com/tags/api/</loc>
     <lastmod>2020-08-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.phireheavyindustries.com/apps/</loc>
     <lastmod>2020-08-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.phireheavyindustries.com/tags/apps/</loc>
     <lastmod>2020-08-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.phireheavyindustries.com/tags/c#/</loc>
     <lastmod>2020-08-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.phireheavyindustries.com/tags/development/</loc>
     <lastmod>2020-08-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.phireheavyindustries.com/apps/forged/</loc>
     <lastmod>2020-08-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.phireheavyindustries.com/apps/untitled-ai-study/</loc>
     <lastmod>2020-08-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.phireheavyindustries.com/bass/</loc>
-    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.phireheavyindustries.com/photo/</loc>
     <lastmod>2020-08-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.phireheavyindustries.com/apps/untitled-api/</loc>
     <lastmod>2020-08-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.phireheavyindustries.com/web/</loc>
     <lastmod>2020-08-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.phireheavyindustries.com/tags/games/</loc>
     <lastmod>2020-08-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.phireheavyindustries.com/games/</loc>
     <lastmod>2020-08-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.phireheavyindustries.com/games/quizbreaker/</loc>
     <lastmod>2020-08-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.phireheavyindustries.com/tags/html/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.phireheavyindustries.com/tags/hugo/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.phireheavyindustries.com/web/phireheavyindustries.com/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.phireheavyindustries.com/tags/unity/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.phireheavyindustries.com/games/zenbreaker/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.phireheavyindustries.com/about/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.phireheavyindustries.com/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.phireheavyindustries.com/series/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.phireheavyindustries.com/work/</loc>
   </url>
-  
 </urlset>

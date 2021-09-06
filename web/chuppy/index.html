@@ -35,15 +35,10 @@ Python is somewhat weird to use for someone like me who is more experienced in C
 
 <meta itemprop="name" content="chuppy">
 <meta itemprop="description" content="This is an application of the Beautiful Soup library in Python. I used it to get and store a number of posts from a well known portuguese message board. All the posts would be separated in content, user, section, url and an unique identifier.
-Python is somewhat weird to use for someone like me who is more experienced in C# and Java but i can see why it has such a following for developers still learning.">
-<meta itemprop="datePublished" content="2020-10-04T00:00:00+00:00" />
+Python is somewhat weird to use for someone like me who is more experienced in C# and Java but i can see why it has such a following for developers still learning."><meta itemprop="datePublished" content="2020-10-04T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2020-10-04T00:00:00+00:00" />
-<meta itemprop="wordCount" content="900">
-
-
-
+<meta itemprop="wordCount" content="899">
 <meta itemprop="keywords" content="Web,Python,SQLite," />
-
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="chuppy"/>
 <meta name="twitter:description" content="This is an application of the Beautiful Soup library in Python. I used it to get and store a number of posts from a well known portuguese message board. All the posts would be separated in content, user, section, url and an unique identifier.
@@ -55,9 +50,10 @@ Python is somewhat weird to use for someone like me who is more experienced in C
 <meta property="og:description" content="This is an application of the Beautiful Soup library in Python. I used it to get and store a number of posts from a well known portuguese message board. All the posts would be separated in content, user, section, url and an unique identifier.
 Python is somewhat weird to use for someone like me who is more experienced in C# and Java but i can see why it has such a following for developers still learning." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.phireheavyindustries.com/web/chuppy/" />
+<meta property="og:url" content="https://www.phireheavyindustries.com/web/chuppy/" /><meta property="article:section" content="web" />
 <meta property="article:published_time" content="2020-10-04T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-10-04T00:00:00+00:00" /><meta property="og:site_name" content="phireheavyindustries" />
+
 
 
 
@@ -97,7 +93,7 @@ Python is somewhat weird to use for someone like me who is more experienced in C
         <span class="header__right">
             
                 <nav class="menu">
-    <ul class="menu__inner"><li><a href="https://www.phireheavyindustries.com/about">About</a></li><li><a href="https://www.phireheavyindustries.com/apps">Apps</a></li><li><a href="https://www.phireheavyindustries.com/bass">Bass</a></li><li><a href="https://www.phireheavyindustries.com/blog">Blog</a></li><li><a href="https://www.phireheavyindustries.com/games">Games</a></li><li><a href="https://www.phireheavyindustries.com/photo">Photo</a></li><li><a href="https://www.phireheavyindustries.com/web">Web</a></li><li><a href="https://www.phireheavyindustries.com/work">Work</a></li>
+    <ul class="menu__inner"><li><a href="https://www.phireheavyindustries.com/about">About</a></li><li><a href="https://www.phireheavyindustries.com/apps">Apps</a></li><li><a href="https://www.phireheavyindustries.com/bass">Bass</a></li><li><a href="https://www.phireheavyindustries.com/blog">Blog</a></li><li><a href="https://www.phireheavyindustries.com/games">Games</a></li><li><a href="https://www.phireheavyindustries.com/photo">Photo</a></li><li><a href="https://www.phireheavyindustries.com/rc">RC</a></li><li><a href="https://www.phireheavyindustries.com/web">Web</a></li><li><a href="https://www.phireheavyindustries.com/work">Work</a></li>
     </ul>
 </nav>
 
@@ -138,7 +134,7 @@ Python is somewhat weird to use for someone like me who is more experienced in C
                 <p>This is an application of the Beautiful Soup library in Python. I used it to get and store a number of posts from a well known portuguese message board. All the posts would be separated in content, user, section, url and an unique identifier.</p>
 <p>Python is somewhat weird to use for someone like me who is more experienced in C# and Java but i can see why it has such a following for developers still learning.</p>
 <h3 id="main-program">Main program</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Importar bibliotecas</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Importar bibliotecas</span>
 
 <span style="color:#f92672">import</span> sqlite3
 <span style="color:#f92672">from</span> sqlite3 <span style="color:#f92672">import</span> Error
@@ -168,11 +164,11 @@ Python is somewhat weird to use for someone like me who is more experienced in C
 </span><span style="color:#e6db74">    :param db_file: database file
 </span><span style="color:#e6db74">    :return: Connection object or None
 </span><span style="color:#e6db74">    &#34;&#34;&#34;</span>
-    conn <span style="color:#f92672">=</span> None
+    conn <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>
     <span style="color:#66d9ef">try</span>:
         conn <span style="color:#f92672">=</span> sqlite3<span style="color:#f92672">.</span>connect ( db_file )
     <span style="color:#66d9ef">except</span> Error <span style="color:#66d9ef">as</span> e:
-        <span style="color:#66d9ef">print</span> ( e )
+        print ( e )
 
     <span style="color:#66d9ef">return</span> conn
 
@@ -229,8 +225,8 @@ database <span style="color:#f92672">=</span> <span style="color:#e6db74">r</spa
 
 <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">print_timestamp</span>():
     now <span style="color:#f92672">=</span> datetime<span style="color:#f92672">.</span>datetime<span style="color:#f92672">.</span>now ()
-    <span style="color:#66d9ef">print</span> ( <span style="color:#e6db74">&#34;Current date and time : &#34;</span> )
-    <span style="color:#66d9ef">print</span> ( now<span style="color:#f92672">.</span>strftime ( <span style="color:#e6db74">&#34;%Y-%m-</span><span style="color:#e6db74">%d</span><span style="color:#e6db74"> %H:%M:%S&#34;</span> ) )
+    print ( <span style="color:#e6db74">&#34;Current date and time : &#34;</span> )
+    print ( now<span style="color:#f92672">.</span>strftime ( <span style="color:#e6db74">&#34;%Y-%m-</span><span style="color:#e6db74">%d</span><span style="color:#e6db74"> %H:%M:%S&#34;</span> ) )
 
 
 <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">insert_row_word</span>(conn , post_project , post_id , word):
@@ -260,7 +256,7 @@ database <span style="color:#f92672">=</span> <span style="color:#e6db74">r</spa
         statusCode <span style="color:#f92672">=</span> <span style="color:#ae81ff">200</span>
         pageCount <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
         maxPageCount <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
-        <span style="color:#66d9ef">print</span> ( <span style="color:#e6db74">&#39;{}</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span><span style="color:#f92672">.</span>format ( siteUrl <span style="color:#f92672">+</span> threadUrl[<span style="color:#e6db74">&#39;href&#39;</span>] ) , end <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span> , flush <span style="color:#f92672">=</span> True )
+        print ( <span style="color:#e6db74">&#39;</span><span style="color:#e6db74">{}</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span><span style="color:#f92672">.</span>format ( siteUrl <span style="color:#f92672">+</span> threadUrl[<span style="color:#e6db74">&#39;href&#39;</span>] ) , end <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span> , flush <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span> )
 
         <span style="color:#66d9ef">while</span> statusCode <span style="color:#f92672">==</span> <span style="color:#ae81ff">200</span> <span style="color:#f92672">and</span> pageCount <span style="color:#f92672">&lt;=</span> maxPageCount:
             url <span style="color:#f92672">=</span> siteUrl <span style="color:#f92672">+</span> threadUrl[<span style="color:#e6db74">&#39;href&#39;</span>] <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;/page&#39;</span> <span style="color:#f92672">+</span> str ( pageCount )
@@ -285,7 +281,7 @@ database <span style="color:#f92672">=</span> <span style="color:#e6db74">r</spa
                 insert_row ( conn , threadUrl<span style="color:#f92672">.</span>contents[<span style="color:#ae81ff">0</span>] , dates[y]<span style="color:#f92672">.</span>text , postnums[y]<span style="color:#f92672">.</span>text , users[y]<span style="color:#f92672">.</span>text ,
                              messages[y]<span style="color:#f92672">.</span>text , postUrls[y]<span style="color:#f92672">.</span>text )
         <span style="color:#66d9ef">else</span>:
-            <span style="color:#66d9ef">print</span> ( <span style="color:#e6db74">&#34;no more pages&#34;</span> )
+            print ( <span style="color:#e6db74">&#34;no more pages&#34;</span> )
 
 <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">return_num_posts</span>(endPText):
     startIndex<span style="color:#f92672">=</span>endPText<span style="color:#f92672">.</span>text<span style="color:#f92672">.</span>find(<span style="color:#e6db74">&#34;of&#34;</span>)
@@ -298,7 +294,7 @@ conn <span style="color:#f92672">=</span> create_connection ( database )
 <span style="color:#66d9ef">with</span> conn:
     maxIter<span style="color:#f92672">=</span><span style="color:#ae81ff">500</span>
     <span style="color:#66d9ef">for</span> y <span style="color:#f92672">in</span> range( maxIter):
-        <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;page {}&#34;</span><span style="color:#f92672">.</span>format(y))
+        print(<span style="color:#e6db74">&#34;page </span><span style="color:#e6db74">{}</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">.</span>format(y))
         print_timestamp ()
         maxPageNum <span style="color:#f92672">=</span> <span style="color:#ae81ff">6500</span>
         urlData<span style="color:#f92672">=</span>return_thread_url(conn)
@@ -310,7 +306,7 @@ conn <span style="color:#f92672">=</span> create_connection ( database )
         <span style="color:#66d9ef">for</span> x <span style="color:#f92672">in</span> range ( maxPageNum ):
 
             url <span style="color:#f92672">=</span> startPage <span style="color:#f92672">+</span> str ( x )
-            <span style="color:#66d9ef">print</span> ( url )
+            print ( url )
             response <span style="color:#f92672">=</span> requests<span style="color:#f92672">.</span>get ( url , headers <span style="color:#f92672">=</span> headers , cookies <span style="color:#f92672">=</span> cookies )
 
             pageContent <span style="color:#f92672">=</span> requests<span style="color:#f92672">.</span>get ( url , headers <span style="color:#f92672">=</span> headers , cookies <span style="color:#f92672">=</span> cookies )
@@ -323,8 +319,8 @@ conn <span style="color:#f92672">=</span> create_connection ( database )
 
             <span style="color:#66d9ef">if</span> x<span style="color:#f92672">&gt;</span>maxPageNum:
                 print_timestamp ()
-                <span style="color:#66d9ef">print</span> ( <span style="color:#e6db74">&#34;Max page Reached&#34;</span> )
-                <span style="color:#66d9ef">print</span> (<span style="color:#e6db74">&#34;updating id &#34;</span><span style="color:#f92672">+</span>str(uniqId))
+                print ( <span style="color:#e6db74">&#34;Max page Reached&#34;</span> )
+                print (<span style="color:#e6db74">&#34;updating id &#34;</span><span style="color:#f92672">+</span>str(uniqId))
                 update_thread_url ( conn , str(uniqId) )
                 <span style="color:#66d9ef">break</span>
 
@@ -337,13 +333,13 @@ conn <span style="color:#f92672">=</span> create_connection ( database )
             <span style="color:#66d9ef">for</span> y <span style="color:#f92672">in</span> range ( len ( messages ) ):
                 insert_row ( conn , project , dates[y]<span style="color:#f92672">.</span>text , postnums[y]<span style="color:#f92672">.</span>text , users[y]<span style="color:#f92672">.</span>text ,
                              messages[y]<span style="color:#f92672">.</span>text , url <span style="color:#f92672">+</span> postUrls[y][<span style="color:#e6db74">&#39;href&#39;</span>] )
-            <span style="color:#66d9ef">print</span> ( <span style="color:#e6db74">&#39;página {} - {:%}%</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span><span style="color:#f92672">.</span>format ( x , x <span style="color:#f92672">/</span> maxPageNum ) , end <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span> , flush <span style="color:#f92672">=</span> True )
+            print ( <span style="color:#e6db74">&#39;página </span><span style="color:#e6db74">{}</span><span style="color:#e6db74"> - </span><span style="color:#e6db74">{:%}</span><span style="color:#e6db74">%</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span><span style="color:#f92672">.</span>format ( x , x <span style="color:#f92672">/</span> maxPageNum ) , end <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span> , flush <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span> )
         <span style="color:#66d9ef">else</span>:
 
             print_timestamp ()
-            <span style="color:#66d9ef">print</span> ( <span style="color:#e6db74">&#34;no more pages&#34;</span> )
+            print ( <span style="color:#e6db74">&#34;no more pages&#34;</span> )
 </code></pre></div><h3 id="database-structure">Database structure</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-SQL" data-lang="SQL"><span style="color:#66d9ef">CREATE</span> <span style="color:#66d9ef">TABLE</span> <span style="color:#e6db74">&#34;tbl_posts&#34;</span> (
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-SQL" data-lang="SQL"><span style="color:#66d9ef">CREATE</span> <span style="color:#66d9ef">TABLE</span> <span style="color:#e6db74">&#34;tbl_posts&#34;</span> (
 	<span style="color:#e6db74">&#34;uniqid&#34;</span>	INTEGER,
 	<span style="color:#e6db74">&#34;post_date&#34;</span>	TEXT,
 	<span style="color:#e6db74">&#34;post_number&#34;</span>	TEXT,
@@ -380,7 +376,7 @@ conn <span style="color:#f92672">=</span> create_connection ( database )
                 <footer class="footer">
     <div class="footer__inner">
         <div class="footer__content">
-            <span>&copy; 2020</span>
+            <span>&copy; 2021</span>
             
             
                 <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
@@ -404,7 +400,7 @@ conn <span style="color:#f92672">=</span> create_connection ( database )
 
 
 
-<script type="text/javascript" src="/bundle.min.dc716e9092c9820b77f96da294d0120aeeb189b5bcea9752309ebea27fd53bbe6b13cffb2aca8ecf32525647ceb7001f76091de4199ac5a3caa432c070247f5b.js" integrity="sha512-3HFukJLJggt3&#43;W2ilNASCu6xibW86pdSMJ6&#43;on/VO75rE8/7KsqOzzJSVkfOtwAfdgkd5BmaxaPKpDLAcCR/Ww=="></script>
+<script type="text/javascript" src="/bundle.min.a0f363fdf81cdc5cfacc447a79c33189eb000d090336cd04aac8ee256f423b3133b836c281944c19c75e38d0b0b449f01ce5807e37798b7ac94ac1db51983fc4.js" integrity="sha512-oPNj/fgc3Fz6zER6ecMxiesADQkDNs0EqsjuJW9COzEzuDbCgZRMGcdeONCwtEnwHOWAfjd5i3rJSsHbUZg/xA=="></script>
 
 
 
