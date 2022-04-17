@@ -1,66 +1,203 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Android on phireheavyindustries</title>
-    <link>https://www.phireheavyindustries.com/tags/android/</link>
-    <description>Recent content in Android on phireheavyindustries</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>PT</language>
-    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com/tags/android/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>2020-09-09</title>
-      <link>https://www.phireheavyindustries.com/blog/2020-09-09/</link>
-      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.phireheavyindustries.com/blog/2020-09-09/</guid>
-      <description>The android app is mostly done, i&amp;rsquo;ve added a few screenshots and some information about the logic for this app and a couple of notes on the development.</description>
-    </item>
-    
-    <item>
-      <title>2020-08-30</title>
-      <link>https://www.phireheavyindustries.com/blog/2020-08-30/</link>
-      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.phireheavyindustries.com/blog/2020-08-30/</guid>
-      <description>There&amp;rsquo;s a new update to the to do app that is being developed for Android and Firebase. I&amp;rsquo;ve also added a new projet to the web development section.</description>
-    </item>
-    
-    <item>
-      <title>Forged</title>
-      <link>https://www.phireheavyindustries.com/apps/forged/</link>
-      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.phireheavyindustries.com/apps/forged/</guid>
-      <description>Most to-do and objetive tracking apps are either too cumbersome or too simple, both of which put me off from using them. I tend to revert to an excel file where i can name a task, prioritize it, write a few notes, set a date and routinely update a percentage to indicate how much of a certain task is done. My challenge is to build an app with a free backend so i can use it anywhere.</description>
-    </item>
-    
-    <item>
-      <title>Untitled MessageBoard API</title>
-      <link>https://www.phireheavyindustries.com/apps/untitled-api/</link>
-      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.phireheavyindustries.com/apps/untitled-api/</guid>
-      <description>This is a project abandoned by a client but i have decided to finish it myself. It is a small social network oriented to allow users to comment on various topics or products. The objetive was to have several discussions rooms where one supervisor or admin would launch a topic of discussion and then he/she would create teams based on gender, age and location. The users would then be allowed to voice their opinions on the matter at hand.</description>
-    </item>
-    
-    <item>
-      <title>Quizbreaker</title>
-      <link>https://www.phireheavyindustries.com/games/quizbreaker/</link>
-      <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.phireheavyindustries.com/games/quizbreaker/</guid>
-      <description>I love the idea of making some sort of digital game that could be played by a group of people in person. This is a very early concept for a trivia game where one user would build a quiz with a number of questions. Then they would invite other players to play. One user would ask the questions and the others would play, either individually or on teams. Since this would be a multiplayer game there are a number of technologies that would have to implemented, along with a number of decisions:</description>
-    </item>
-    
-    <item>
-      <title>Zenbreaker</title>
-      <link>https://www.phireheavyindustries.com/games/zenbreaker/</link>
-      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.phireheavyindustries.com/games/zenbreaker/</guid>
-      <description>Was a simple experiment in Unity to better understand the mechanics of what it takes to build a simple game, including launching and publishing to the Play Store. It has since been abandoned.</description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>android on phire heavy industries</title>
+        <link>https://www.phireheavyindustries.com&#34;/tags/android/</link>
+        <description>Recent content in android on phire heavy industries</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Tue, 11 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com\"/tags/android/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Forged</title>
+        <link>https://www.phireheavyindustries.com&#34;/p/forged/</link>
+        <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.phireheavyindustries.com&#34;/p/forged/</guid>
+        <description>&lt;p&gt;Most to-do and objetive tracking apps are either too cumbersome or too simple, both of which put me off from using them. I tend to revert to an excel file where i can name a task, prioritize it, write a few notes, set a date and routinely update a percentage to indicate how much of a certain task is done. My challenge is to build an app with a free backend so i can use it anywhere.&lt;/p&gt;
+&lt;p&gt;In short, this app should support:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tasks, each of them with a name, description, priority, responsible user, due date and percentage of completion
+&lt;ul&gt;
+&lt;li&gt;Tasks can have subtasks, which are in itself (you guessed it!) tasks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For now, i&amp;rsquo;m researching the viability of using Google Firebase for the backend.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;used-resources&#34;&gt;Used Resources&lt;/h3&gt;
+&lt;p&gt;I&amp;rsquo;ve been following these tutorials:&lt;/p&gt;
+&lt;h4 id=&#34;firebase-firestore-tutorial&#34;&gt;Firebase Firestore Tutorial&lt;/h4&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=4d-gIPGzmK4&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.youtube.com/watch?v=4d-gIPGzmK4&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;learn-how-to-build-an-android-10-app---using-kotlin---development-masterclass-7-hours-free-course&#34;&gt;Learn How to Build an Android 10 App - Using Kotlin - Development Masterclass 7+ hours FREE Course&lt;/h4&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=uRyvNKRkwbs&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.youtube.com/watch?v=uRyvNKRkwbs&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;kotlin-firebase-messenger&#34;&gt;Kotlin Firebase Messenger&lt;/h4&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=ihJGxFu2u9Q&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.youtube.com/watch?v=ihJGxFu2u9Q&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Although it is somewhat outdated and uses the realtime database, for most of the UI interactions it was very informative.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;status&#34;&gt;Status&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Almost done, deciding on wether to finish it or move on&lt;/li&gt;
+&lt;li&gt;Features missing:
+&lt;ul&gt;
+&lt;li&gt;editing any of the fields of a task&lt;/li&gt;
+&lt;li&gt;adding a percentage that would indicate how much of a task is left&lt;/li&gt;
+&lt;li&gt;grouping tasks by tags
+&lt;ul&gt;
+&lt;li&gt;creation and management of tags&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;statistics on tags&lt;/li&gt;
+&lt;li&gt;creating tasks for other users&lt;/li&gt;
+&lt;li&gt;filtering tasks by date, percentage&lt;/li&gt;
+&lt;li&gt;reminders and notifications about tasks on the due date&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h5 id=&#34;2020-08-30&#34;&gt;2020-08-30&lt;/h5&gt;
+&lt;p&gt;I have built the first steps of this app which include a login screen, a firebase app and connection between these two, which seems to be working. The next step is to define the database structure on the firebase side of things.&lt;/p&gt;
+&lt;h5 id=&#34;2020-09-09&#34;&gt;2020-09-09&lt;/h5&gt;
+&lt;p&gt;This app is mostly done. I have a few remarks about this experience:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The user registration and authentication using the firebase auth module is very straightforward and easy to use&lt;/li&gt;
+&lt;li&gt;The modeling of the data in firebase is weird, mostly because it goes against of much of what i know. Specifically, a hierarchy is discouraged as it would add more database operations and would increase the size of the data being transmitted between client and server, which has an impact on the value that an app would cost by being hosted on firebase.
+&lt;ul&gt;
+&lt;li&gt;due to this i ended up following a few tips like (this)[https://stackoverflow.com/questions/58003147/how-to-structure-recurring-tasks-for-an-user-on-firestore] in order to have a flat table design&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;kotlin is somewhat complicated and not very intuitive&lt;/li&gt;
+&lt;li&gt;running the android emulator is buggy, i had to clean the cache and reboot the emulator multiple times&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h6 id=&#34;screenshots&#34;&gt;screenshots&lt;/h6&gt;
+&lt;hr&gt;
+&lt;p&gt;login screen&lt;/p&gt;
+&lt;h2 id=&#34;loginimg2020-09-0900_59_51-windowpng&#34;&gt;&lt;img src=&#34;https://www.phireheavyindustries.com"/img/2020-09-0900_59_51-Window.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;login&#34;
+	
+	
+&gt;&lt;/h2&gt;
+&lt;p&gt;task list screen&lt;/p&gt;
+&lt;h2 id=&#34;tasklistimg2020-09-0901_03_24-windowpng&#34;&gt;&lt;img src=&#34;https://www.phireheavyindustries.com"/img/2020-09-0901_03_24-Window.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;tasklist&#34;
+	
+	
+&gt;&lt;/h2&gt;
+&lt;p&gt;new task screen&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.phireheavyindustries.com"/img/2020-09-0901_08_09-Window.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;new task&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Untitled MessageBoard API</title>
+        <link>https://www.phireheavyindustries.com&#34;/p/untitled-messageboard-api/</link>
+        <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.phireheavyindustries.com&#34;/p/untitled-messageboard-api/</guid>
+        <description>&lt;p&gt;This is a project abandoned by a client but i have decided to finish it myself. It is a small social network oriented to allow users to comment on various topics or products. The objetive was to have several discussions rooms where one supervisor or admin would launch a topic of discussion and then he/she would create teams based on gender, age and location. The users would then be allowed to voice their opinions on the matter at hand. The best way to go about building such an app would be to have two separate components:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;A backend, in the form of a REST Api, built for this example in .Net Core 3.1 with Entity Framework&lt;/li&gt;
+&lt;li&gt;A mobile app, built in native Android with Kotlin&lt;/li&gt;
+&lt;li&gt;A SQL Database&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The client decided that it would be simpler and faster to find something pre-made.&lt;/p&gt;
+&lt;h3 id=&#34;used-resources&#34;&gt;Used Resources&lt;/h3&gt;
+&lt;p&gt;I&amp;rsquo;ve been following these tutorials:&lt;/p&gt;
+&lt;h4 id=&#34;net-core-31-mvc-rest-api&#34;&gt;.NET Core 3.1 MVC REST API&lt;/h4&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=fmvcAzHpsk8&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.youtube.com/watch?v=fmvcAzHpsk8&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;learn-how-to-build-an-android-10-app---using-kotlin---development-masterclass-7-hours-free-course&#34;&gt;Learn How to Build an Android 10 App - Using Kotlin - Development Masterclass 7+ hours FREE Course&lt;/h4&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=uRyvNKRkwbs&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.youtube.com/watch?v=uRyvNKRkwbs&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;status&#34;&gt;Status&lt;/h4&gt;
+&lt;h5 id=&#34;2020-08-10&#34;&gt;2020-08-10&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;Backend is built and tested, although in a very basic form.
+&lt;ol&gt;
+&lt;li&gt;It has no validation or authentication. And it probably never will, as this will be used for learning and proof of concept.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Mobile App has yet to be started.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;2020-08-20&#34;&gt;2020-08-20&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;Mobile App is underway. I have built the first stages of an Android App, using Kotlin. Right now, i can access the API from the android emulator, and list data in a RecyclerView. This serves as proof of concept and will also enable me to copy and adapt the code for the users and messages sections.&lt;/li&gt;
+&lt;li&gt;Still working on:
+&lt;ul&gt;
+&lt;li&gt;Layout of the RecyclerView&lt;/li&gt;
+&lt;li&gt;Posting of new topics and new messages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Quizbreaker</title>
+        <link>https://www.phireheavyindustries.com&#34;/p/quizbreaker/</link>
+        <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.phireheavyindustries.com&#34;/p/quizbreaker/</guid>
+        <description>&lt;p&gt;I love the idea of making some sort of digital game that could be played by a group of people in person. This is a very early concept for a trivia game where one user would build a quiz with a number of questions. Then they would invite other players to play. One user would ask the questions and the others would play, either individually or on teams. Since this would be a multiplayer game there are a number of technologies that would have to implemented, along with a number of decisions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How is the quiz stored? Which backend would be used?&lt;/li&gt;
+&lt;li&gt;How is the game synchronized between all the players?
+&lt;ul&gt;
+&lt;li&gt;How do users access one game
+&lt;ul&gt;
+&lt;li&gt;Through a code, maybe?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;What happens when a player drops out
+&lt;ul&gt;
+&lt;li&gt;What happens if the admin drops out&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Making the UI in Unity would make the game multiplatform&lt;/li&gt;
+&lt;li&gt;How many questions can the admin build&lt;/li&gt;
+&lt;li&gt;What type of questions?
+&lt;ul&gt;
+&lt;li&gt;Multichoice, look at an image or video, hear a sound&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Can the quizzes be saved?&lt;/li&gt;
+&lt;li&gt;Is there a point in making a premium version for this game where the premium version would enable more features?
+&lt;ul&gt;
+&lt;li&gt;Like saving quizzes, customized avatars, a high score table&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Zenbreaker</title>
+        <link>https://www.phireheavyindustries.com&#34;/p/zenbreaker/</link>
+        <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.phireheavyindustries.com&#34;/p/zenbreaker/</guid>
+        <description>&lt;p&gt;This was a simple experiment in Unity to better understand the mechanics of what it takes to build a simple game, including launching and publishing to the Play Store. It has since been abandoned.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>
