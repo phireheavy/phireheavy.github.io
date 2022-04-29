@@ -6,7 +6,20 @@
         <description>Recent content in Posts on phire heavy industries</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 14 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com\"/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 29 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com\"/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Downgrading</title>
+        <link>https://www.phireheavyindustries.com&#34;/p/downgrading/</link>
+        <pubDate>Fri, 29 Apr 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.phireheavyindustries.com&#34;/p/downgrading/</guid>
+        <description>&lt;p&gt;It took a couple of months but i finally found a battery replacement for my old but trusty &lt;a class=&#34;link&#34; href=&#34;https://www.lenovo.com/pt/pt/laptops/thinkpad/t-series/t430s&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;thinkpad t430s&lt;/a&gt;. It is a 3rd party battery, as this laptop is the better part of 10 years old. For that same reason i didn&amp;rsquo;t bother checking if there was anything blocking the use of 3rd party batteries. You can imagine my surprise when i was greeted with a message just after the bios check, stating an error with the battery not being original and that it was unable to charge. Booting to windows revealed a similar message and confirmed that the battery was indeed, not charging.&lt;/p&gt;
+&lt;p&gt;After a quick google search, it became apparent that this is a feature implemented as a security measure against low quality or fake batteries. As most things, tt is also a subject of much controversy. Fortunately, &lt;a class=&#34;link&#34; href=&#34;https://github.com/hamishcoleman/thinkpad-ec&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;there&amp;rsquo;s a patch&lt;/a&gt; that enables the use of a 7 row classic keyboard and disables the check for the original battery. The procedure is straightforward, involving a bios downgrade and then patching the bios with a modified image built in linux. And while i am, in theory, against downgrading in general, this was a no-brainer.&lt;/p&gt;
+&lt;p&gt;After the patch, the laptop boots without an error message. It took almost 40 minutes, but started to slowly charge the battery. I also tested how much time could it run on the battery after fully charged, and was again surprised with a time just above 6 hours. Although it wasn&amp;rsquo;t the most realistic test, i&amp;rsquo;m happy to get even half that working on some documents and checking my email.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>How i work</title>
         <link>https://www.phireheavyindustries.com&#34;/p/how-i-work/</link>
         <pubDate>Thu, 14 Apr 2022 00:00:00 +0000</pubDate>
