@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>site updates on phire heavy industries</title>
+        <link>https://www.phireheavyindustries.com&#34;/categories/site-updates/</link>
+        <description>Recent content in site updates on phire heavy industries</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Fri, 29 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com\"/categories/site-updates/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Downgrading</title>
+        <link>https://www.phireheavyindustries.com&#34;/p/downgrading/</link>
+        <pubDate>Fri, 29 Apr 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.phireheavyindustries.com&#34;/p/downgrading/</guid>
+        <description>&lt;p&gt;It took a couple of months but i finally found a battery replacement for my old but trusty &lt;a class=&#34;link&#34; href=&#34;https://www.lenovo.com/pt/pt/laptops/thinkpad/t-series/t430s&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;thinkpad t430s&lt;/a&gt;. It is a 3rd party battery, as this laptop is the better part of 10 years old. For that same reason i didn&amp;rsquo;t bother checking if there was anything blocking the use of 3rd party batteries. You can imagine my surprise when i was greeted with a message just after the bios check, stating an error with the battery not being original and that it was unable to charge. Booting to windows revealed a similar message and confirmed that the battery was indeed, not charging.&lt;/p&gt;
+&lt;p&gt;After a quick google search, it became apparent that this is a feature implemented as a security measure against low quality or fake batteries. As most things, tt is also a subject of much controversy. Fortunately, &lt;a class=&#34;link&#34; href=&#34;https://github.com/hamishcoleman/thinkpad-ec&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;there&amp;rsquo;s a patch&lt;/a&gt; that enables the use of a 7 row classic keyboard and disables the check for the original battery. The procedure is straightforward, involving a bios downgrade and then patching the bios with a modified image built in linux. And while i am, in theory, against downgrading in general, this was a no-brainer.&lt;/p&gt;
+&lt;p&gt;After the patch, the laptop boots without an error message. It took almost 40 minutes, but started to slowly charge the battery. I also tested how much time could it run on the battery after fully charged, and was again surprised with a time just above 6 hours. Although it wasn&amp;rsquo;t the most realistic test, i&amp;rsquo;m happy to get even half that working on some documents and checking my email.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>How i work</title>
+        <link>https://www.phireheavyindustries.com&#34;/p/how-i-work/</link>
+        <pubDate>Thu, 14 Apr 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.phireheavyindustries.com&#34;/p/how-i-work/</guid>
+        <description>&lt;p&gt;I just love trading tips with other people on what methods they use to organize their work and their life. Although i think this is a constant struggle i tend to see it as an opportunity for self improvement, and what methods can one use to achieve more efficient ways of getting stuff done.&lt;/p&gt;
+&lt;h4 id=&#34;hardware&#34;&gt;Hardware&lt;/h4&gt;
+&lt;p&gt;I have 3 computers that i use on a daily basis. One is a &lt;a class=&#34;link&#34; href=&#34;https://www.lenovo.com/pt/pt/laptops/thinkpad/t-series/t430s/]&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Lenovo Thinkpad T430s&lt;/a&gt;. It is what i use for my daily work, connected to a VPN and to a Windows Domain. It is an old machine, which i bought refurbished and the battery on a good day might last 30 minutes. Nevertheless, it has been such a dependable machine that even when the inevitable upgrade happens, i might just keep it as a backup. It has a couple of SSDs, 8 GB of ram and not much else. It struggles with a couple of Power BI reports open but can handle a Kali VM, Outlook and a couple of RDP sessions with no issue. It can also run factorio, which is the only game i really need. I got it on a whim, after attending a training session where i was the only one without a company laptop (which i still do not have).&lt;/p&gt;
+&lt;p&gt;I also have an &lt;a class=&#34;link&#34; href=&#34;https://www.msi.com/Laptop/GT72-6QD-DOMINATOR-G/Specification&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;MSI Dominator 6QD&lt;/a&gt;, with 16 GB of ram, an I7 cpu and a Geforce GTX970. This is where i do most studying, researching and writing. It is also my go to machine whenever i might stay away for a few days. It is a heavy laptop and not the most reliable machine but it&amp;rsquo;s powerful enough for anything that i might think to throw at it.&lt;/p&gt;
+&lt;p&gt;Finally i have a desktop computer which has been built over the years as a media center / gaming machine. It has 24 GB of ram, a bunch of disks and two Geforce 970GTX. It handles everything that i need except for the most demanding games.&lt;/p&gt;
+&lt;p&gt;For the laptops if i&amp;rsquo;m commuting i&amp;rsquo;ll also have a trackball with me (usually a &lt;a class=&#34;link&#34; href=&#34;https://www.amazon.com/Logitech-M570-Wireless-Trackball-Mouse/dp/B0043T7FXE&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Logitech M570&lt;/a&gt;). At my home i have an assortment of mechanical keyboards, one of them being an &lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Model_M_keyboard&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;IBM Model M&lt;/a&gt; which i find myself using more and more. A &lt;a class=&#34;link&#34; href=&#34;https://www2.razer.com/br-pt/gaming-mice/razer-deathadder-essential&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Razer Deathadder&lt;/a&gt; is still going strong despite most mice only lasting me a couple of years. The desktop uses a couple of screens, which i really don&amp;rsquo;t remember the model but work just fine. I also have a &lt;a class=&#34;link&#34; href=&#34;https://www.hifiengine.com/manual_library/technics/su-v670.shtml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Technics amplifier&lt;/a&gt; hooked up to this desktop and a couple of &lt;a class=&#34;link&#34; href=&#34;https://www.hifiengine.com/manual_library/jbl/xe1.shtml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;JBL speakers&lt;/a&gt;. It is the definition of overkill but i don&amp;rsquo;t care and can&amp;rsquo;t really see getting rid of it anytime soon. If i need to have some sort of zoom or teams meeting, i&amp;rsquo;ll throw on a &lt;a class=&#34;link&#34; href=&#34;https://www.razer.com/gaming-headsets/Razer-Kraken-Tournament-Edition/RZ04-02051000-R3M1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Razer headset&lt;/a&gt; and a generic webcam.&lt;/p&gt;
+&lt;p&gt;Still in the sound department i have a couple of earbuds that i can connect to my &lt;a class=&#34;link&#34; href=&#34;https://www.gsmarena.com/honor_10-9157.php&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Honor 10&lt;/a&gt; and listen to spotify, youtube or podcasts. I&amp;rsquo;m also a fan of radio and sometimes i&amp;rsquo;ll throw a &lt;a class=&#34;link&#34; href=&#34;https://swling.com/blog/2018/04/a-detailed-review-of-the-xhdata-d-808-and-comparison-with-the-tecsun-pl-660/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;XHDATA D-808&lt;/a&gt; SW Radio in my backpack. I also have a &lt;a class=&#34;link&#34; href=&#34;https://www.cnet.com/reviews/samsung-galaxy-watch-review/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Samsung smartwatch&lt;/a&gt; which i use to check notifications and track my (poor) fitness.&lt;/p&gt;
+&lt;p&gt;I usually have with me at least a fountain pen, a mechanical pencil and a notepad. Currently it&amp;rsquo;s a &lt;a class=&#34;link&#34; href=&#34;https://www.twsbi.com/products/twsbi-eco-transparent-blue-fountain-pen&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;TWSBI Eco&lt;/a&gt;, an &lt;a class=&#34;link&#34; href=&#34;https://www.ohto.co.jp/english/product/pm1500p/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Ohto Super Promecha&lt;/a&gt; and a &lt;a class=&#34;link&#34; href=&#34;https://www.leuchtturm1917.co.uk/bullet-journal-edition-2.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Leuchtterm 1917 bullet journal&lt;/a&gt;. For me, writing with a pen and paper is the best way to learn and understand any given subject.&lt;/p&gt;
+&lt;h4 id=&#34;software&#34;&gt;Software&lt;/h4&gt;
+&lt;p&gt;Most of my time is spent inside Power BI, Excel, Word and Outlook. Firefox is my default browser, with &lt;a class=&#34;link&#34; href=&#34;https://bitwarden.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Bitwarden&lt;/a&gt; for password management. I use &lt;a class=&#34;link&#34; href=&#34;https://www.virtualbox.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Virtualbox&lt;/a&gt; to spin up virtual machines for testing and fun. At work i use Windows 10 on workstations and Server 2016 on the VMs that support the users. These are hosted on a cloud with VMWare with our provider.&lt;/p&gt;
+&lt;p&gt;I try to keep an updated todo list with &lt;a class=&#34;link&#34; href=&#34;https://todoist.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Todoist&lt;/a&gt; and a personal knowledge base with &lt;a class=&#34;link&#34; href=&#34;https://www.notion.so&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Notion&lt;/a&gt;. I&amp;rsquo;ve been experimenting with &lt;a class=&#34;link&#34; href=&#34;https://obsidian.md/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Obsidian&lt;/a&gt; as a i like the idea of local files and markdown syntax. As most of what i write (including this post) is done inside VSCode i&amp;rsquo;ve been trying to consolidate most of these things into a single tool. I also have a &lt;a class=&#34;link&#34; href=&#34;https://habitica.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Habitica&lt;/a&gt; account for habits tracking, which i don&amp;rsquo;t use as much as i should. Most of the stuff at work is organized in several copies of word and excel files, an approach that i hate but have been unable to change.&lt;/p&gt;
+&lt;p&gt;Onedrive and Google Drive work great for syncing files between different machines. I have a couple of batch files for backups of my photos and development projects that get copied to a network drive. Development projects also live in github and photos get uploaded to google photos.&lt;/p&gt;
+&lt;h4 id=&#34;todo&#34;&gt;Todo&lt;/h4&gt;
+&lt;p&gt;I think most of my limitations come from a lack of time and organization and when i&amp;rsquo;m not working or researching a subject i&amp;rsquo;m usually trying to improve this. Having a light laptop would also help, but only if it can run &lt;a class=&#34;link&#34; href=&#34;https://store.steampowered.com/app/427520/Factorio/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Factorio&lt;/a&gt;.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Sideloading</title>
+        <link>https://www.phireheavyindustries.com&#34;/p/sideloading/</link>
+        <pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.phireheavyindustries.com&#34;/p/sideloading/</guid>
+        <description>&lt;p&gt;After a couple of years working from home it felt good to finally return to working in a physical office with people again. Even if it&amp;rsquo;s somewhat temporary and kind of scary to be around people, it gave me a fresh perspective on work. I don&amp;rsquo;t like to admit it but i&amp;rsquo;m not that productive working exclusively from home. It remains to be seen what kind of schedule i can adopt between office and home, but for now it feels good to have a little more contact with the world.&lt;/p&gt;
+&lt;p&gt;As for work, i am now a certified &lt;a class=&#34;link&#34; href=&#34;https://docs.microsoft.com/en-us/learn/certifications/power-bi-data-analyst-associate/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Power BI Data Analyst Associate&lt;/a&gt; and also a &lt;a class=&#34;link&#34; href=&#34;https://www.qualtrics.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Qualtrics Research Core Expert&lt;/a&gt;. I work most of the time inside Power BI, and in sysadmin tasks.&lt;/p&gt;
+&lt;p&gt;Recently i took an interest in the pentesting and redteaming subjects, and i&amp;rsquo;m working through the &lt;a class=&#34;link&#34; href=&#34;https://www.hackthebox.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hack the Box&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://tryhackme.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;TryHackMe&lt;/a&gt; challenges. I find it very challenging but fun. I like the idea of hacking and working through these challenges, like they were puzzles.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
