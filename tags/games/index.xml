@@ -1,21 +1,50 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Games on phireheavyindustries</title>
-    <link>https://www.phireheavyindustries.com/tags/games/</link>
-    <description>Recent content in Games on phireheavyindustries</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>PT</language>
-    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 02 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com/tags/games/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Quizbreaker</title>
-      <link>https://www.phireheavyindustries.com/games/quizbreaker/</link>
-      <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.phireheavyindustries.com/games/quizbreaker/</guid>
-      <description>I love the idea of making some sort of digital game that could be played by a group of people in person. This is a very early concept for a trivia game where one user would build a quiz with a number of questions. Then they would invite other players to play. One user would ask the questions and the others would play, either individually or on teams. Since this would be a multiplayer game there are a number of technologies that would have to implemented, along with a number of decisions:</description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>games on phire heavy industries</title>
+        <link>https://www.phireheavyindustries.com&#34;/tags/games/</link>
+        <description>Recent content in games on phire heavy industries</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sun, 02 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com\"/tags/games/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Quizbreaker</title>
+        <link>https://www.phireheavyindustries.com&#34;/p/quizbreaker/</link>
+        <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.phireheavyindustries.com&#34;/p/quizbreaker/</guid>
+        <description>&lt;p&gt;I love the idea of making some sort of digital game that could be played by a group of people in person. This is a very early concept for a trivia game where one user would build a quiz with a number of questions. Then they would invite other players to play. One user would ask the questions and the others would play, either individually or on teams. Since this would be a multiplayer game there are a number of technologies that would have to implemented, along with a number of decisions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How is the quiz stored? Which backend would be used?&lt;/li&gt;
+&lt;li&gt;How is the game synchronized between all the players?
+&lt;ul&gt;
+&lt;li&gt;How do users access one game
+&lt;ul&gt;
+&lt;li&gt;Through a code, maybe?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;What happens when a player drops out
+&lt;ul&gt;
+&lt;li&gt;What happens if the admin drops out&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Making the UI in Unity would make the game multiplatform&lt;/li&gt;
+&lt;li&gt;How many questions can the admin build&lt;/li&gt;
+&lt;li&gt;What type of questions?
+&lt;ul&gt;
+&lt;li&gt;Multichoice, look at an image or video, hear a sound&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Can the quizzes be saved?&lt;/li&gt;
+&lt;li&gt;Is there a point in making a premium version for this game where the premium version would enable more features?
+&lt;ul&gt;
+&lt;li&gt;Like saving quizzes, customized avatars, a high score table&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>

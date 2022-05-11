@@ -1,23 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>AI on phireheavyindustries</title>
-    <link>https://www.phireheavyindustries.com/tags/ai/</link>
-    <description>Recent content in AI on phireheavyindustries</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>PT</language>
-    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 11 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Untitled C# AI Study</title>
-      <link>https://www.phireheavyindustries.com/apps/untitled-ai-study/</link>
-      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.phireheavyindustries.com/apps/untitled-ai-study/</guid>
-      <description>This is an attempt to establish some sort of AI programming routines in order to classify strings of text as positive/negative or neutral. The objetive is to find if such a thing is possible with C#, how hard is it and what kind of resources will be needed.
-Used Resources ML.NET - Machine Learning Introduction https://www.youtube.com/watch?v=X0DQjfW09kA&amp;amp;list=PLdo4fOcmZ0oUDTvk5XMNues09FnuB_D0u
-Status 2020-08-20 It&amp;rsquo;s surprisingly easy. The worst thing about it is to get a reliable dataset.</description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>ai on phire heavy industries</title>
+        <link>https://www.phireheavyindustries.com&#34;/tags/ai/</link>
+        <description>Recent content in ai on phire heavy industries</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Tue, 11 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com\"/tags/ai/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Untitled C# AI Study</title>
+        <link>https://www.phireheavyindustries.com&#34;/p/untitled-c#-ai-study/</link>
+        <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.phireheavyindustries.com&#34;/p/untitled-c#-ai-study/</guid>
+        <description>&lt;p&gt;This is an  attempt to establish some sort of AI programming routines in order to classify strings of text as positive/negative or neutral. The objetive is to find if such a thing is possible with C#, how hard is it and what kind of resources will be needed.&lt;/p&gt;
+&lt;h3 id=&#34;used-resources&#34;&gt;Used Resources&lt;/h3&gt;
+&lt;h5 id=&#34;mlnet---machine-learning-introduction&#34;&gt;ML.NET - Machine Learning Introduction&lt;/h5&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=X0DQjfW09kA&amp;amp;list=PLdo4fOcmZ0oUDTvk5XMNues09FnuB_D0u&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.youtube.com/watch?v=X0DQjfW09kA&amp;list=PLdo4fOcmZ0oUDTvk5XMNues09FnuB_D0u&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;status&#34;&gt;Status&lt;/h4&gt;
+&lt;h5 id=&#34;2020-08-20&#34;&gt;2020-08-20&lt;/h5&gt;
+&lt;p&gt;It&amp;rsquo;s surprisingly easy. The worst thing about it is to get a reliable dataset. I have since experimented with two datasets and had more success testing the sentiment analysis in English, as the only dataset that i could find in Portuguese was for Twitter.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Still to be decided is how can this be integrated with other apps or what other things i can accomplish with this.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>
