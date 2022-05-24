@@ -7,11 +7,11 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Tue, 24 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com\"/tags/web/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Eternal loop</title>
-        <link>https://www.phireheavyindustries.com&#34;/p/eternal-loop/</link>
+        <title>Templated</title>
+        <link>https://www.phireheavyindustries.com&#34;/p/templated/</link>
         <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com&#34;/p/eternal-loop/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/templated/</guid>
         <description>&lt;p&gt;&lt;em&gt;Can you exploit this simple mistake?&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;An easy challenge, i struggled with the #SSTI part as i wasn&amp;rsquo;t enconding the command properly. Using burpsuite to make it easier to manipulate the url i first tried:&lt;/p&gt;
 &lt;p&gt;`{{request.application.&lt;strong&gt;globals&lt;/strong&gt;.&lt;strong&gt;builtins&lt;/strong&gt;.&lt;strong&gt;import&lt;/strong&gt;(&amp;lsquo;os&amp;rsquo;).popen(&amp;ldquo;ls&amp;rdquo;).read()}}&lt;/p&gt;
