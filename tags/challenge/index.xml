@@ -152,6 +152,15 @@
 &lt;/div&gt;</description>
         </item>
         <item>
+        <title>Behind the scenes</title>
+        <link>https://www.phireheavyindustries.com&#34;/p/behind-the-scenes/</link>
+        <pubDate>Wed, 11 May 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.phireheavyindustries.com&#34;/p/behind-the-scenes/</guid>
+        <description>&lt;p&gt;After opening the binary in Ghidra, i searched for the string that is returned if i run the binary without an argument. Just below this is the flag.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>CubeMadness1</title>
         <link>https://www.phireheavyindustries.com&#34;/p/cubemadness1/</link>
         <pubDate>Wed, 11 May 2022 00:00:00 +0000</pubDate>
