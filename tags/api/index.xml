@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>api on phire heavy industries</title>
-        <link>https://www.phireheavyindustries.com&#34;/tags/api/</link>
+        <link>https://www.phireheavyindustries.com/tags/api/</link>
         <description>Recent content in api on phire heavy industries</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 11 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com\"/tags/api/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 11 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com/tags/api/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Forged</title>
-        <link>https://www.phireheavyindustries.com&#34;/p/forged/</link>
+        <link>https://www.phireheavyindustries.com/p/forged/</link>
         <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com&#34;/p/forged/</guid>
+        <guid>https://www.phireheavyindustries.com/p/forged/</guid>
         <description>&lt;p&gt;Most to-do and objetive tracking apps are either too cumbersome or too simple, both of which put me off from using them. I tend to revert to an excel file where i can name a task, prioritize it, write a few notes, set a date and routinely update a percentage to indicate how much of a certain task is done. My challenge is to build an app with a free backend so i can use it anywhere.&lt;/p&gt;
 &lt;p&gt;In short, this app should support:&lt;/p&gt;
 &lt;ul&gt;
@@ -73,7 +73,7 @@
 &lt;h6 id=&#34;screenshots&#34;&gt;screenshots&lt;/h6&gt;
 &lt;hr&gt;
 &lt;p&gt;login screen&lt;/p&gt;
-&lt;h2 id=&#34;loginimg2020-09-0900_59_51-windowpng&#34;&gt;&lt;img src=&#34;https://www.phireheavyindustries.com"/img/2020-09-0900_59_51-Window.png&#34;
+&lt;h2 id=&#34;loginimg2020-09-0900_59_51-windowpng&#34;&gt;&lt;img src=&#34;https://www.phireheavyindustries.com/img/2020-09-0900_59_51-Window.png&#34;
 	
 	
 	
@@ -84,7 +84,7 @@
 	
 &gt;&lt;/h2&gt;
 &lt;p&gt;task list screen&lt;/p&gt;
-&lt;h2 id=&#34;tasklistimg2020-09-0901_03_24-windowpng&#34;&gt;&lt;img src=&#34;https://www.phireheavyindustries.com"/img/2020-09-0901_03_24-Window.png&#34;
+&lt;h2 id=&#34;tasklistimg2020-09-0901_03_24-windowpng&#34;&gt;&lt;img src=&#34;https://www.phireheavyindustries.com/img/2020-09-0901_03_24-Window.png&#34;
 	
 	
 	
@@ -95,7 +95,7 @@
 	
 &gt;&lt;/h2&gt;
 &lt;p&gt;new task screen&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.phireheavyindustries.com"/img/2020-09-0901_08_09-Window.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.phireheavyindustries.com/img/2020-09-0901_08_09-Window.png&#34;
 	
 	
 	
@@ -109,10 +109,10 @@
         </item>
         <item>
         <title>Untitled MessageBoard API</title>
-        <link>https://www.phireheavyindustries.com&#34;/p/untitled-messageboard-api/</link>
+        <link>https://www.phireheavyindustries.com/p/untitled-messageboard-api/</link>
         <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com&#34;/p/untitled-messageboard-api/</guid>
+        <guid>https://www.phireheavyindustries.com/p/untitled-messageboard-api/</guid>
         <description>&lt;p&gt;This is a project abandoned by a client but i have decided to finish it myself. It is a small social network oriented to allow users to comment on various topics or products. The objetive was to have several discussions rooms where one supervisor or admin would launch a topic of discussion and then he/she would create teams based on gender, age and location. The users would then be allowed to voice their opinions on the matter at hand. The best way to go about building such an app would be to have two separate components:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;A backend, in the form of a REST Api, built for this example in .Net Core 3.1 with Entity Framework&lt;/li&gt;

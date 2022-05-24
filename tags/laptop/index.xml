@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>laptop on phire heavy industries</title>
-        <link>https://www.phireheavyindustries.com&#34;/tags/laptop/</link>
+        <link>https://www.phireheavyindustries.com/tags/laptop/</link>
         <description>Recent content in laptop on phire heavy industries</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Fri, 29 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com\"/tags/laptop/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 29 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com/tags/laptop/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Downgrading</title>
-        <link>https://www.phireheavyindustries.com&#34;/p/downgrading/</link>
+        <link>https://www.phireheavyindustries.com/p/downgrading/</link>
         <pubDate>Fri, 29 Apr 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com&#34;/p/downgrading/</guid>
+        <guid>https://www.phireheavyindustries.com/p/downgrading/</guid>
         <description>&lt;p&gt;It took a couple of months but i finally found a battery replacement for my old but trusty &lt;a class=&#34;link&#34; href=&#34;https://www.lenovo.com/pt/pt/laptops/thinkpad/t-series/t430s&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;thinkpad t430s&lt;/a&gt;. It is a 3rd party battery, as this laptop is the better part of 10 years old. For that same reason i didn&amp;rsquo;t bother checking if there was anything blocking the use of 3rd party batteries. You can imagine my surprise when i was greeted with a message just after the bios check, stating an error with the battery not being original and that it was unable to charge. Booting to windows revealed a similar message and confirmed that the battery was indeed, not charging.&lt;/p&gt;
 &lt;p&gt;After a quick google search, it became apparent that this is a feature implemented as a security measure against low quality or fake batteries. As most things, tt is also a subject of much controversy. Fortunately, &lt;a class=&#34;link&#34; href=&#34;https://github.com/hamishcoleman/thinkpad-ec&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;

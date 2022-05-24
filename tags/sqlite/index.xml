@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>sqlite on phire heavy industries</title>
-        <link>https://www.phireheavyindustries.com&#34;/tags/sqlite/</link>
+        <link>https://www.phireheavyindustries.com/tags/sqlite/</link>
         <description>Recent content in sqlite on phire heavy industries</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 04 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com\"/tags/sqlite/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 04 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com/tags/sqlite/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>chuppy</title>
-        <link>https://www.phireheavyindustries.com&#34;/p/chuppy/</link>
+        <link>https://www.phireheavyindustries.com/p/chuppy/</link>
         <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com&#34;/p/chuppy/</guid>
+        <guid>https://www.phireheavyindustries.com/p/chuppy/</guid>
         <description>&lt;p&gt;This is an application of the Beautiful Soup library in Python. I used it to get and store a number of posts from a well known portuguese message board. All the posts would be separated in content, user, section, url and an unique identifier.&lt;/p&gt;
 &lt;p&gt;Python is somewhat weird to use for someone like me who is more experienced in C# and Java but i can see why it has such a following for developers still learning.&lt;/p&gt;
 &lt;h3 id=&#34;main-program&#34;&gt;Main program&lt;/h3&gt;

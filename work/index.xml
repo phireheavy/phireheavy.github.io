@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Work on phire heavy industries</title>
-        <link>https://www.phireheavyindustries.com&#34;/work/</link>
+        <link>https://www.phireheavyindustries.com/work/</link>
         <description>Recent content in Work on phire heavy industries</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language><atom:link href="https://www.phireheavyindustries.com\"/work/index.xml" rel="self" type="application/rss+xml" />
+        <language>en-us</language><atom:link href="https://www.phireheavyindustries.com/work/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

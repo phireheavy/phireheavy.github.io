@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>ongoing project on phire heavy industries</title>
-        <link>https://www.phireheavyindustries.com&#34;/categories/ongoing-project/</link>
+        <link>https://www.phireheavyindustries.com/categories/ongoing-project/</link>
         <description>Recent content in ongoing project on phire heavy industries</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 10 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com\"/categories/ongoing-project/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 10 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com/categories/ongoing-project/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Untitled MessageBoard API</title>
-        <link>https://www.phireheavyindustries.com&#34;/p/untitled-messageboard-api/</link>
+        <link>https://www.phireheavyindustries.com/p/untitled-messageboard-api/</link>
         <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com&#34;/p/untitled-messageboard-api/</guid>
+        <guid>https://www.phireheavyindustries.com/p/untitled-messageboard-api/</guid>
         <description>&lt;p&gt;This is a project abandoned by a client but i have decided to finish it myself. It is a small social network oriented to allow users to comment on various topics or products. The objetive was to have several discussions rooms where one supervisor or admin would launch a topic of discussion and then he/she would create teams based on gender, age and location. The users would then be allowed to voice their opinions on the matter at hand. The best way to go about building such an app would be to have two separate components:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;A backend, in the form of a REST Api, built for this example in .Net Core 3.1 with Entity Framework&lt;/li&gt;
@@ -51,10 +51,10 @@
         </item>
         <item>
         <title>phireheavyindustries.com</title>
-        <link>https://www.phireheavyindustries.com&#34;/p/phireheavyindustries.com/</link>
+        <link>https://www.phireheavyindustries.com/p/phireheavyindustries.com/</link>
         <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com&#34;/p/phireheavyindustries.com/</guid>
+        <guid>https://www.phireheavyindustries.com/p/phireheavyindustries.com/</guid>
         <description>&lt;p&gt;Yes, it&amp;rsquo;s this site. This is made using the &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Hugo&lt;/a&gt; framework and is hosted on &lt;a class=&#34;link&#34; href=&#34;https://porkbun.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Porkbun&lt;/a&gt;. I find that the static content generator is a great tool to use for personal and small sites, but as any project, this is a work in progress. It&amp;rsquo;s still missing:&lt;/p&gt;
