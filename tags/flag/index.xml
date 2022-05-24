@@ -12,7 +12,9 @@
         <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
         
         <guid>https://www.phireheavyindustries.com&#34;/p/timelapse/</guid>
-        <description>&lt;h3 id=&#34;assessment&#34;&gt;assessment&lt;/h3&gt;
+        <description>&lt;h2 id=&#34;assessment&#34;&gt;assessment&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://app.hackthebox.com/machines/Timelapse&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://app.hackthebox.com/machines/Timelapse&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;enumeration&#34;&gt;Enumeration&lt;/h2&gt;
 &lt;h2 id=&#34;nmap&#34;&gt;nmap&lt;/h2&gt;
 &lt;p&gt;Has to run with -Pn&lt;/p&gt;
