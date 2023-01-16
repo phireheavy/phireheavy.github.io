@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>kali on phire heavy industries</title>
-        <link>https://www.phireheavyindustries.com/tags/kali/</link>
+        <link>https://www.phireheavyindustries.com&#34;/tags/kali/</link>
         <description>Recent content in kali on phire heavy industries</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 24 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com/tags/kali/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 24 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com\"/tags/kali/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Cat</title>
-        <link>https://www.phireheavyindustries.com/p/cat/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/cat/</link>
         <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/cat/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/cat/</guid>
         <description>&lt;p&gt;Using the &lt;strong&gt;file&lt;/strong&gt; command i can see that this is an Android Backup file, not encrypted&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -39,10 +39,10 @@
         </item>
         <item>
         <title>Eternal loop</title>
-        <link>https://www.phireheavyindustries.com/p/eternal-loop/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/eternal-loop/</link>
         <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/eternal-loop/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/eternal-loop/</guid>
         <description>&lt;p&gt;I have a zip file which opens with the standard &lt;em&gt;hackthebox&lt;/em&gt; password. This reveals another zip file inside. Atfer trying a couple of different passwords i tried the name of the zip file that i&amp;rsquo;m trying to open and it worked. This reveals another zip file which can be opened the same way. I&amp;rsquo;ve tried about 6 iterations of the same thing before giving up.&lt;/p&gt;
 &lt;p&gt;The easiest way to do this is use some sort of script which recursively opens the files.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -91,11 +91,11 @@
 </description>
         </item>
         <item>
-        <title>Templated</title>
-        <link>https://www.phireheavyindustries.com/p/templated/</link>
+        <title>Eternal loop</title>
+        <link>https://www.phireheavyindustries.com&#34;/p/eternal-loop/</link>
         <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/templated/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/eternal-loop/</guid>
         <description>&lt;p&gt;&lt;em&gt;Can you exploit this simple mistake?&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;An easy challenge, i struggled with the #SSTI part as i wasn&amp;rsquo;t enconding the command properly. Using burpsuite to make it easier to manipulate the url i first tried:&lt;/p&gt;
 &lt;p&gt;`{{request.application.&lt;strong&gt;globals&lt;/strong&gt;.&lt;strong&gt;builtins&lt;/strong&gt;.&lt;strong&gt;import&lt;/strong&gt;(&amp;lsquo;os&amp;rsquo;).popen(&amp;ldquo;ls&amp;rdquo;).read()}}&lt;/p&gt;
@@ -109,10 +109,10 @@
         </item>
         <item>
         <title>Baby Encription</title>
-        <link>https://www.phireheavyindustries.com/p/baby-encription/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/baby-encription/</link>
         <pubDate>Wed, 11 May 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/baby-encription/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/baby-encription/</guid>
         <description>&lt;p&gt;&lt;em&gt;You are after an organised crime group which is responsible for the illegal weapon market in your country. As a secret agent, you have infiltrated the group enough to be included in meetings with clients. During the last negotiation, you found one of the confidential messages for the customer. It contains crucial information about the delivery. Do you think you can decrypt it?&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;I cannot reverse the code for the file but i can run the samething and compare to the string that i already have.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -153,28 +153,28 @@
         </item>
         <item>
         <title>Behind the scenes</title>
-        <link>https://www.phireheavyindustries.com/p/behind-the-scenes/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/behind-the-scenes/</link>
         <pubDate>Wed, 11 May 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/behind-the-scenes/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/behind-the-scenes/</guid>
         <description>&lt;p&gt;After opening the binary in Ghidra, i searched for the string that is returned if i run the binary without an argument. Just below this is the flag.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>CubeMadness1</title>
-        <link>https://www.phireheavyindustries.com/p/cubemadness1/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/cubemadness1/</link>
         <pubDate>Wed, 11 May 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/cubemadness1/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/cubemadness1/</guid>
         <description>&lt;p&gt;I used cheatengine to change the memory values to the maximum items i needed to catch.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Sideloading</title>
-        <link>https://www.phireheavyindustries.com/p/sideloading/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/sideloading/</link>
         <pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/sideloading/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/sideloading/</guid>
         <description>&lt;p&gt;After a couple of years working from home it felt good to finally return to working in a physical office with people again. Even if it&amp;rsquo;s somewhat temporary and kind of scary to be around people, it gave me a fresh perspective on work. I don&amp;rsquo;t like to admit it but i&amp;rsquo;m not that productive working exclusively from home. It remains to be seen what kind of schedule i can adopt between office and home, but for now it feels good to have a little more contact with the world.&lt;/p&gt;
 &lt;p&gt;As for work, i am now a certified &lt;a class=&#34;link&#34; href=&#34;https://docs.microsoft.com/en-us/learn/certifications/power-bi-data-analyst-associate/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Power BI Data Analyst Associate&lt;/a&gt; and also a &lt;a class=&#34;link&#34; href=&#34;https://www.qualtrics.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;

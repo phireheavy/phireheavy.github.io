@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>web on phire heavy industries</title>
-        <link>https://www.phireheavyindustries.com/tags/web/</link>
+        <link>https://www.phireheavyindustries.com&#34;/tags/web/</link>
         <description>Recent content in web on phire heavy industries</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 24 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com/tags/web/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Templated</title>
-        <link>https://www.phireheavyindustries.com/p/templated/</link>
+        <lastBuildDate>Tue, 24 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com\"/tags/web/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Eternal loop</title>
+        <link>https://www.phireheavyindustries.com&#34;/p/eternal-loop/</link>
         <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/templated/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/eternal-loop/</guid>
         <description>&lt;p&gt;&lt;em&gt;Can you exploit this simple mistake?&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;An easy challenge, i struggled with the #SSTI part as i wasn&amp;rsquo;t enconding the command properly. Using burpsuite to make it easier to manipulate the url i first tried:&lt;/p&gt;
 &lt;p&gt;`{{request.application.&lt;strong&gt;globals&lt;/strong&gt;.&lt;strong&gt;builtins&lt;/strong&gt;.&lt;strong&gt;import&lt;/strong&gt;(&amp;lsquo;os&amp;rsquo;).popen(&amp;ldquo;ls&amp;rdquo;).read()}}&lt;/p&gt;
@@ -25,10 +25,10 @@
         </item>
         <item>
         <title>chuppy</title>
-        <link>https://www.phireheavyindustries.com/p/chuppy/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/chuppy/</link>
         <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/chuppy/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/chuppy/</guid>
         <description>&lt;p&gt;This is an application of the Beautiful Soup library in Python. I used it to get and store a number of posts from a well known portuguese message board. All the posts would be separated in content, user, section, url and an unique identifier.&lt;/p&gt;
 &lt;p&gt;Python is somewhat weird to use for someone like me who is more experienced in C# and Java but i can see why it has such a following for developers still learning.&lt;/p&gt;
 &lt;h3 id=&#34;main-program&#34;&gt;Main program&lt;/h3&gt;
@@ -493,10 +493,10 @@
         </item>
         <item>
         <title>unnamed startpage</title>
-        <link>https://www.phireheavyindustries.com/p/unnamed-startpage/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/unnamed-startpage/</link>
         <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/unnamed-startpage/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/unnamed-startpage/</guid>
         <description>&lt;p&gt;A very early idea for a responsive and dynamic start page that should open for default on the browser.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;It should list some news with RSS&lt;/li&gt;
@@ -507,10 +507,10 @@
         </item>
         <item>
         <title>phireheavyindustries.com</title>
-        <link>https://www.phireheavyindustries.com/p/phireheavyindustries.com/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/phireheavyindustries.com/</link>
         <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/phireheavyindustries.com/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/phireheavyindustries.com/</guid>
         <description>&lt;p&gt;Yes, it&amp;rsquo;s this site. This is made using the &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Hugo&lt;/a&gt; framework and is hosted on &lt;a class=&#34;link&#34; href=&#34;https://porkbun.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Porkbun&lt;/a&gt;. I find that the static content generator is a great tool to use for personal and small sites, but as any project, this is a work in progress. It&amp;rsquo;s still missing:&lt;/p&gt;

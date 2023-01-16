@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>abandoned project on phire heavy industries</title>
-        <link>https://www.phireheavyindustries.com/categories/abandoned-project/</link>
+        <link>https://www.phireheavyindustries.com&#34;/categories/abandoned-project/</link>
         <description>Recent content in abandoned project on phire heavy industries</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com/categories/abandoned-project/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com\"/categories/abandoned-project/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Zenbreaker</title>
-        <link>https://www.phireheavyindustries.com/p/zenbreaker/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/zenbreaker/</link>
         <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/zenbreaker/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/zenbreaker/</guid>
         <description>&lt;p&gt;This was a simple experiment in Unity to better understand the mechanics of what it takes to build a simple game, including launching and publishing to the Play Store. It has since been abandoned.&lt;/p&gt;
 </description>
         </item>

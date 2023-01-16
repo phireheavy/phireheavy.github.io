@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>new project on phire heavy industries</title>
-        <link>https://www.phireheavyindustries.com/categories/new-project/</link>
+        <link>https://www.phireheavyindustries.com&#34;/categories/new-project/</link>
         <description>Recent content in new project on phire heavy industries</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 30 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com/categories/new-project/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 30 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com\"/categories/new-project/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>unnamed startpage</title>
-        <link>https://www.phireheavyindustries.com/p/unnamed-startpage/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/unnamed-startpage/</link>
         <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/unnamed-startpage/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/unnamed-startpage/</guid>
         <description>&lt;p&gt;A very early idea for a responsive and dynamic start page that should open for default on the browser.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;It should list some news with RSS&lt;/li&gt;
@@ -22,10 +22,10 @@
         </item>
         <item>
         <title>Quizbreaker</title>
-        <link>https://www.phireheavyindustries.com/p/quizbreaker/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/quizbreaker/</link>
         <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/quizbreaker/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/quizbreaker/</guid>
         <description>&lt;p&gt;I love the idea of making some sort of digital game that could be played by a group of people in person. This is a very early concept for a trivia game where one user would build a quiz with a number of questions. Then they would invite other players to play. One user would ask the questions and the others would play, either individually or on teams. Since this would be a multiplayer game there are a number of technologies that would have to implemented, along with a number of decisions:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;How is the quiz stored? Which backend would be used?&lt;/li&gt;

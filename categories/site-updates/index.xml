@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>site updates on phire heavy industries</title>
-        <link>https://www.phireheavyindustries.com/categories/site-updates/</link>
+        <link>https://www.phireheavyindustries.com&#34;/categories/site-updates/</link>
         <description>Recent content in site updates on phire heavy industries</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Fri, 29 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com/categories/site-updates/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 29 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com\"/categories/site-updates/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Downgrading</title>
-        <link>https://www.phireheavyindustries.com/p/downgrading/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/downgrading/</link>
         <pubDate>Fri, 29 Apr 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/downgrading/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/downgrading/</guid>
         <description>&lt;p&gt;It took a couple of months but i finally found a battery replacement for my old but trusty &lt;a class=&#34;link&#34; href=&#34;https://www.lenovo.com/pt/pt/laptops/thinkpad/t-series/t430s&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;thinkpad t430s&lt;/a&gt;. It is a 3rd party battery, as this laptop is the better part of 10 years old. For that same reason i didn&amp;rsquo;t bother checking if there was anything blocking the use of 3rd party batteries. You can imagine my surprise when i was greeted with a message just after the bios check, stating an error with the battery not being original and that it was unable to charge. Booting to windows revealed a similar message and confirmed that the battery was indeed, not charging.&lt;/p&gt;
 &lt;p&gt;After a quick google search, it became apparent that this is a feature implemented as a security measure against low quality or fake batteries. As most things, tt is also a subject of much controversy. Fortunately, &lt;a class=&#34;link&#34; href=&#34;https://github.com/hamishcoleman/thinkpad-ec&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -21,10 +21,10 @@
         </item>
         <item>
         <title>How i work</title>
-        <link>https://www.phireheavyindustries.com/p/how-i-work/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/how-i-work/</link>
         <pubDate>Thu, 14 Apr 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/how-i-work/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/how-i-work/</guid>
         <description>&lt;p&gt;I just love trading tips with other people on what methods they use to organize their work and their life. Although i think this is a constant struggle i tend to see it as an opportunity for self improvement, and what methods can one use to achieve more efficient ways of getting stuff done.&lt;/p&gt;
 &lt;h4 id=&#34;hardware&#34;&gt;Hardware&lt;/h4&gt;
 &lt;p&gt;I have 3 computers that i use on a daily basis. One is a &lt;a class=&#34;link&#34; href=&#34;https://www.lenovo.com/pt/pt/laptops/thinkpad/t-series/t430s/]&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -64,10 +64,10 @@
         </item>
         <item>
         <title>Sideloading</title>
-        <link>https://www.phireheavyindustries.com/p/sideloading/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/sideloading/</link>
         <pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/sideloading/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/sideloading/</guid>
         <description>&lt;p&gt;After a couple of years working from home it felt good to finally return to working in a physical office with people again. Even if it&amp;rsquo;s somewhat temporary and kind of scary to be around people, it gave me a fresh perspective on work. I don&amp;rsquo;t like to admit it but i&amp;rsquo;m not that productive working exclusively from home. It remains to be seen what kind of schedule i can adopt between office and home, but for now it feels good to have a little more contact with the world.&lt;/p&gt;
 &lt;p&gt;As for work, i am now a certified &lt;a class=&#34;link&#34; href=&#34;https://docs.microsoft.com/en-us/learn/certifications/power-bi-data-analyst-associate/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Power BI Data Analyst Associate&lt;/a&gt; and also a &lt;a class=&#34;link&#34; href=&#34;https://www.qualtrics.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;

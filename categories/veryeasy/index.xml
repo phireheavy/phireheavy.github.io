@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>veryeasy on phire heavy industries</title>
-        <link>https://www.phireheavyindustries.com/categories/veryeasy/</link>
+        <link>https://www.phireheavyindustries.com&#34;/categories/veryeasy/</link>
         <description>Recent content in veryeasy on phire heavy industries</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 11 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com/categories/veryeasy/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 11 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com\"/categories/veryeasy/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Baby Encription</title>
-        <link>https://www.phireheavyindustries.com/p/baby-encription/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/baby-encription/</link>
         <pubDate>Wed, 11 May 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/baby-encription/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/baby-encription/</guid>
         <description>&lt;p&gt;&lt;em&gt;You are after an organised crime group which is responsible for the illegal weapon market in your country. As a secret agent, you have infiltrated the group enough to be included in meetings with clients. During the last negotiation, you found one of the confidential messages for the customer. It contains crucial information about the delivery. Do you think you can decrypt it?&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;I cannot reverse the code for the file but i can run the samething and compare to the string that i already have.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -52,19 +52,19 @@
         </item>
         <item>
         <title>Behind the scenes</title>
-        <link>https://www.phireheavyindustries.com/p/behind-the-scenes/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/behind-the-scenes/</link>
         <pubDate>Wed, 11 May 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/behind-the-scenes/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/behind-the-scenes/</guid>
         <description>&lt;p&gt;After opening the binary in Ghidra, i searched for the string that is returned if i run the binary without an argument. Just below this is the flag.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>CubeMadness1</title>
-        <link>https://www.phireheavyindustries.com/p/cubemadness1/</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/cubemadness1/</link>
         <pubDate>Wed, 11 May 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com/p/cubemadness1/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/cubemadness1/</guid>
         <description>&lt;p&gt;I used cheatengine to change the memory values to the maximum items i needed to catch.&lt;/p&gt;
 </description>
         </item>
