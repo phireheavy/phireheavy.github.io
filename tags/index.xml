@@ -5,11 +5,11 @@
         <link>https://www.phireheavyindustries.com&#34;/tags/</link>
         <description>Recent content in Tags on phire heavy industries</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Sat, 07 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com\"/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>en</language>
+        <lastBuildDate>Wed, 11 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com\"/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>easy</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/easy/</link>
-        <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate>
         
         <guid>https://www.phireheavyindustries.com&#34;/tags/easy/</guid>
         <description></description>
@@ -17,31 +17,31 @@
         <item>
         <title>flag</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/flag/</link>
-        <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate>
         
         <guid>https://www.phireheavyindustries.com&#34;/tags/flag/</guid>
         <description></description>
         </item>
         <item>
+        <title>hackthebox</title>
+        <link>https://www.phireheavyindustries.com&#34;/tags/hackthebox/</link>
+        <pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.phireheavyindustries.com&#34;/tags/hackthebox/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>root</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/root/</link>
-        <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate>
         
         <guid>https://www.phireheavyindustries.com&#34;/tags/root/</guid>
         <description></description>
         </item>
         <item>
-        <title>tryhackme</title>
-        <link>https://www.phireheavyindustries.com&#34;/tags/tryhackme/</link>
-        <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
-        
-        <guid>https://www.phireheavyindustries.com&#34;/tags/tryhackme/</guid>
-        <description></description>
-        </item>
-        <item>
         <title>writeup</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/writeup/</link>
-        <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate>
         
         <guid>https://www.phireheavyindustries.com&#34;/tags/writeup/</guid>
         <description></description>
@@ -100,6 +100,14 @@
         <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
         
         <guid>https://www.phireheavyindustries.com&#34;/tags/privesc/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>tryhackme</title>
+        <link>https://www.phireheavyindustries.com&#34;/tags/tryhackme/</link>
+        <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.phireheavyindustries.com&#34;/tags/tryhackme/</guid>
         <description></description>
         </item>
         <item>
