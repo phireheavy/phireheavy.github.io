@@ -6,8 +6,16 @@
         <description>Recent content in Categories on phire heavy industries</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Wed, 11 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com\"/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>hackthebox</title>
+        <lastBuildDate>Sun, 14 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com\"/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Site Updates</title>
+        <link>https://www.phireheavyindustries.com&#34;/categories/site-updates/</link>
+        <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.phireheavyindustries.com&#34;/categories/site-updates/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Hackthebox</title>
         <link>https://www.phireheavyindustries.com&#34;/categories/hackthebox/</link>
         <pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate>
         
@@ -15,7 +23,7 @@
         <description></description>
         </item>
         <item>
-        <title>writeup</title>
+        <title>Writeup</title>
         <link>https://www.phireheavyindustries.com&#34;/categories/writeup/</link>
         <pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate>
         
@@ -23,7 +31,7 @@
         <description></description>
         </item>
         <item>
-        <title>easy</title>
+        <title>Easy</title>
         <link>https://www.phireheavyindustries.com&#34;/categories/easy/</link>
         <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
         
@@ -31,7 +39,7 @@
         <description></description>
         </item>
         <item>
-        <title>python</title>
+        <title>Python</title>
         <link>https://www.phireheavyindustries.com&#34;/categories/python/</link>
         <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
         
@@ -39,7 +47,7 @@
         <description></description>
         </item>
         <item>
-        <title>windows</title>
+        <title>Windows</title>
         <link>https://www.phireheavyindustries.com&#34;/categories/windows/</link>
         <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
         
@@ -47,7 +55,7 @@
         <description></description>
         </item>
         <item>
-        <title>veryeasy</title>
+        <title>Veryeasy</title>
         <link>https://www.phireheavyindustries.com&#34;/categories/veryeasy/</link>
         <pubDate>Wed, 11 May 2022 00:00:00 +0000</pubDate>
         
@@ -55,15 +63,7 @@
         <description></description>
         </item>
         <item>
-        <title>site updates</title>
-        <link>https://www.phireheavyindustries.com&#34;/categories/site-updates/</link>
-        <pubDate>Fri, 29 Apr 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://www.phireheavyindustries.com&#34;/categories/site-updates/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>fun</title>
+        <title>Fun</title>
         <link>https://www.phireheavyindustries.com&#34;/categories/fun/</link>
         <pubDate>Mon, 06 Sep 2021 00:00:00 +0000</pubDate>
         
@@ -71,7 +71,7 @@
         <description></description>
         </item>
         <item>
-        <title>self development</title>
+        <title>Self Development</title>
         <link>https://www.phireheavyindustries.com&#34;/categories/self-development/</link>
         <pubDate>Mon, 06 Sep 2021 00:00:00 +0000</pubDate>
         
@@ -79,7 +79,7 @@
         <description></description>
         </item>
         <item>
-        <title>finished project</title>
+        <title>Finished Project</title>
         <link>https://www.phireheavyindustries.com&#34;/categories/finished-project/</link>
         <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
         
@@ -87,7 +87,7 @@
         <description></description>
         </item>
         <item>
-        <title>new project</title>
+        <title>New Project</title>
         <link>https://www.phireheavyindustries.com&#34;/categories/new-project/</link>
         <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
         
@@ -95,7 +95,7 @@
         <description></description>
         </item>
         <item>
-        <title>ongoing project</title>
+        <title>Ongoing Project</title>
         <link>https://www.phireheavyindustries.com&#34;/categories/ongoing-project/</link>
         <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
         
@@ -103,7 +103,7 @@
         <description></description>
         </item>
         <item>
-        <title>abandoned project</title>
+        <title>Abandoned Project</title>
         <link>https://www.phireheavyindustries.com&#34;/categories/abandoned-project/</link>
         <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
         

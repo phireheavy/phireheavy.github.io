@@ -3,10 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.phireheavyindustries.com&#34;/</loc>
-    <lastmod>2023-01-11T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.phireheavyindustries.com&#34;/categories/</loc>
-    <lastmod>2023-01-11T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.phireheavyindustries.com&#34;/tags/hardware/</loc>
+    <lastmod>2024-04-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.phireheavyindustries.com&#34;/p/how-i-work-i-2024/</loc>
+    <lastmod>2024-04-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.phireheavyindustries.com&#34;/tags/methodology/</loc>
+    <lastmod>2024-04-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.phireheavyindustries.com&#34;/post/</loc>
+    <lastmod>2024-04-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.phireheavyindustries.com&#34;/categories/site-updates/</loc>
+    <lastmod>2024-04-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.phireheavyindustries.com&#34;/tags/software/</loc>
+    <lastmod>2024-04-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.phireheavyindustries.com&#34;/tags/</loc>
+    <lastmod>2024-04-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.phireheavyindustries.com&#34;/tags/easy/</loc>
     <lastmod>2023-01-11T00:00:00+00:00</lastmod>
@@ -23,13 +44,7 @@
     <loc>https://www.phireheavyindustries.com&#34;/p/photobomb/</loc>
     <lastmod>2023-01-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.phireheavyindustries.com&#34;/post/</loc>
-    <lastmod>2023-01-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.phireheavyindustries.com&#34;/tags/root/</loc>
-    <lastmod>2023-01-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.phireheavyindustries.com&#34;/tags/</loc>
     <lastmod>2023-01-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.phireheavyindustries.com&#34;/tags/writeup/</loc>
@@ -110,22 +125,10 @@
     <loc>https://www.phireheavyindustries.com&#34;/tags/laptop/</loc>
     <lastmod>2022-04-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.phireheavyindustries.com&#34;/categories/site-updates/</loc>
-    <lastmod>2022-04-29T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.phireheavyindustries.com&#34;/tags/thinkpad/</loc>
     <lastmod>2022-04-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.phireheavyindustries.com&#34;/tags/hardware/</loc>
-    <lastmod>2022-04-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.phireheavyindustries.com&#34;/p/how-i-work/</loc>
-    <lastmod>2022-04-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.phireheavyindustries.com&#34;/tags/methodology/</loc>
-    <lastmod>2022-04-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.phireheavyindustries.com&#34;/tags/software/</loc>
     <lastmod>2022-04-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.phireheavyindustries.com&#34;/tags/news/</loc>
@@ -185,7 +188,7 @@
     <loc>https://www.phireheavyindustries.com&#34;/tags/apps/</loc>
     <lastmod>2020-08-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.phireheavyindustries.com&#34;/tags/c#/</loc>
+    <loc>https://www.phireheavyindustries.com&#34;/tags/c</loc>
     <lastmod>2020-08-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.phireheavyindustries.com&#34;/tags/development/</loc>
@@ -194,7 +197,7 @@
     <loc>https://www.phireheavyindustries.com&#34;/p/forged/</loc>
     <lastmod>2020-08-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.phireheavyindustries.com&#34;/p/untitled-c#-ai-study/</loc>
+    <loc>https://www.phireheavyindustries.com&#34;/p/untitled-c</loc>
     <lastmod>2020-08-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.phireheavyindustries.com&#34;/categories/ongoing-project/</loc>
@@ -232,6 +235,8 @@
   </url><url>
     <loc>https://www.phireheavyindustries.com&#34;/page/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.phireheavyindustries.com&#34;/temp/</loc>
   </url><url>
     <loc>https://www.phireheavyindustries.com&#34;/about/</loc>
   </url><url>

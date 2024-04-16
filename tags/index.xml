@@ -6,8 +6,32 @@
         <description>Recent content in Tags on phire heavy industries</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Wed, 11 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com\"/tags/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>easy</title>
+        <lastBuildDate>Sun, 14 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.phireheavyindustries.com\"/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Hardware</title>
+        <link>https://www.phireheavyindustries.com&#34;/tags/hardware/</link>
+        <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.phireheavyindustries.com&#34;/tags/hardware/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Methodology</title>
+        <link>https://www.phireheavyindustries.com&#34;/tags/methodology/</link>
+        <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.phireheavyindustries.com&#34;/tags/methodology/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Software</title>
+        <link>https://www.phireheavyindustries.com&#34;/tags/software/</link>
+        <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.phireheavyindustries.com&#34;/tags/software/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Easy</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/easy/</link>
         <pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate>
         
@@ -15,7 +39,7 @@
         <description></description>
         </item>
         <item>
-        <title>flag</title>
+        <title>Flag</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/flag/</link>
         <pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate>
         
@@ -23,7 +47,7 @@
         <description></description>
         </item>
         <item>
-        <title>hackthebox</title>
+        <title>Hackthebox</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/hackthebox/</link>
         <pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate>
         
@@ -31,7 +55,7 @@
         <description></description>
         </item>
         <item>
-        <title>root</title>
+        <title>Root</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/root/</link>
         <pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate>
         
@@ -39,7 +63,7 @@
         <description></description>
         </item>
         <item>
-        <title>writeup</title>
+        <title>Writeup</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/writeup/</link>
         <pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate>
         
@@ -47,7 +71,7 @@
         <description></description>
         </item>
         <item>
-        <title>challenge</title>
+        <title>Challenge</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/challenge/</link>
         <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
         
@@ -55,7 +79,7 @@
         <description></description>
         </item>
         <item>
-        <title>hack</title>
+        <title>Hack</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/hack/</link>
         <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
         
@@ -63,7 +87,7 @@
         <description></description>
         </item>
         <item>
-        <title>kali</title>
+        <title>Kali</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/kali/</link>
         <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
         
@@ -71,7 +95,7 @@
         <description></description>
         </item>
         <item>
-        <title>mobile</title>
+        <title>Mobile</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/mobile/</link>
         <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
         
@@ -79,7 +103,7 @@
         <description></description>
         </item>
         <item>
-        <title>reversing</title>
+        <title>Reversing</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/reversing/</link>
         <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
         
@@ -87,7 +111,7 @@
         <description></description>
         </item>
         <item>
-        <title>web</title>
+        <title>Web</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/web/</link>
         <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
         
@@ -95,7 +119,7 @@
         <description></description>
         </item>
         <item>
-        <title>privesc</title>
+        <title>Privesc</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/privesc/</link>
         <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
         
@@ -103,7 +127,7 @@
         <description></description>
         </item>
         <item>
-        <title>tryhackme</title>
+        <title>Tryhackme</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/tryhackme/</link>
         <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
         
@@ -111,7 +135,7 @@
         <description></description>
         </item>
         <item>
-        <title>windows</title>
+        <title>Windows</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/windows/</link>
         <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
         
@@ -119,7 +143,7 @@
         <description></description>
         </item>
         <item>
-        <title>battery</title>
+        <title>Battery</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/battery/</link>
         <pubDate>Fri, 29 Apr 2022 00:00:00 +0000</pubDate>
         
@@ -127,7 +151,7 @@
         <description></description>
         </item>
         <item>
-        <title>laptop</title>
+        <title>Laptop</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/laptop/</link>
         <pubDate>Fri, 29 Apr 2022 00:00:00 +0000</pubDate>
         
@@ -135,7 +159,7 @@
         <description></description>
         </item>
         <item>
-        <title>thinkpad</title>
+        <title>Thinkpad</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/thinkpad/</link>
         <pubDate>Fri, 29 Apr 2022 00:00:00 +0000</pubDate>
         
@@ -143,31 +167,7 @@
         <description></description>
         </item>
         <item>
-        <title>hardware</title>
-        <link>https://www.phireheavyindustries.com&#34;/tags/hardware/</link>
-        <pubDate>Thu, 14 Apr 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://www.phireheavyindustries.com&#34;/tags/hardware/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>methodology</title>
-        <link>https://www.phireheavyindustries.com&#34;/tags/methodology/</link>
-        <pubDate>Thu, 14 Apr 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://www.phireheavyindustries.com&#34;/tags/methodology/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>software</title>
-        <link>https://www.phireheavyindustries.com&#34;/tags/software/</link>
-        <pubDate>Thu, 14 Apr 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://www.phireheavyindustries.com&#34;/tags/software/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>news</title>
+        <title>News</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/news/</link>
         <pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate>
         
@@ -175,7 +175,7 @@
         <description></description>
         </item>
         <item>
-        <title>powerbi</title>
+        <title>Powerbi</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/powerbi/</link>
         <pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate>
         
@@ -183,7 +183,7 @@
         <description></description>
         </item>
         <item>
-        <title>qualtrics</title>
+        <title>Qualtrics</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/qualtrics/</link>
         <pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate>
         
@@ -191,7 +191,7 @@
         <description></description>
         </item>
         <item>
-        <title>bass</title>
+        <title>Bass</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/bass/</link>
         <pubDate>Mon, 06 Sep 2021 00:00:00 +0000</pubDate>
         
@@ -199,7 +199,7 @@
         <description></description>
         </item>
         <item>
-        <title>music</title>
+        <title>Music</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/music/</link>
         <pubDate>Mon, 06 Sep 2021 00:00:00 +0000</pubDate>
         
@@ -207,7 +207,7 @@
         <description></description>
         </item>
         <item>
-        <title>python</title>
+        <title>Python</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/python/</link>
         <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
         
@@ -215,7 +215,7 @@
         <description></description>
         </item>
         <item>
-        <title>sqlite</title>
+        <title>Sqlite</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/sqlite/</link>
         <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
         
@@ -223,7 +223,7 @@
         <description></description>
         </item>
         <item>
-        <title>ai</title>
+        <title>Ai</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/ai/</link>
         <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
         
@@ -231,7 +231,7 @@
         <description></description>
         </item>
         <item>
-        <title>android</title>
+        <title>Android</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/android/</link>
         <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
         
@@ -239,7 +239,7 @@
         <description></description>
         </item>
         <item>
-        <title>api</title>
+        <title>Api</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/api/</link>
         <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
         
@@ -247,7 +247,7 @@
         <description></description>
         </item>
         <item>
-        <title>apps</title>
+        <title>Apps</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/apps/</link>
         <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
         
@@ -255,15 +255,15 @@
         <description></description>
         </item>
         <item>
-        <title>c#</title>
-        <link>https://www.phireheavyindustries.com&#34;/tags/c#/</link>
+        <title>C#</title>
+        <link>https://www.phireheavyindustries.com&#34;/tags/c</link>
         <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com&#34;/tags/c#/</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/tags/c</guid>
         <description></description>
         </item>
         <item>
-        <title>development</title>
+        <title>Development</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/development/</link>
         <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
         
@@ -271,7 +271,7 @@
         <description></description>
         </item>
         <item>
-        <title>games</title>
+        <title>Games</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/games/</link>
         <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
         
@@ -279,7 +279,7 @@
         <description></description>
         </item>
         <item>
-        <title>html</title>
+        <title>Html</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/html/</link>
         <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
         
@@ -287,7 +287,7 @@
         <description></description>
         </item>
         <item>
-        <title>hugo</title>
+        <title>Hugo</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/hugo/</link>
         <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
         
@@ -295,7 +295,7 @@
         <description></description>
         </item>
         <item>
-        <title>unity</title>
+        <title>Unity</title>
         <link>https://www.phireheavyindustries.com&#34;/tags/unity/</link>
         <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
         
