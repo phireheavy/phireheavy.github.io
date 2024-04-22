@@ -109,10 +109,10 @@
         </item>
         <item>
         <title>Untitled C# AI Study</title>
-        <link>https://www.phireheavyindustries.com&#34;/p/untitled-c</link>
+        <link>https://www.phireheavyindustries.com&#34;/p/untitled-c%23-ai-study/</link>
         <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://www.phireheavyindustries.com&#34;/p/untitled-c</guid>
+        <guid>https://www.phireheavyindustries.com&#34;/p/untitled-c%23-ai-study/</guid>
         <description>&lt;p&gt;This is an  attempt to establish some sort of AI programming routines in order to classify strings of text as positive/negative or neutral. The objetive is to find if such a thing is possible with C#, how hard is it and what kind of resources will be needed.&lt;/p&gt;
 &lt;h3 id=&#34;used-resources&#34;&gt;Used Resources&lt;/h3&gt;
 &lt;h5 id=&#34;mlnet---machine-learning-introduction&#34;&gt;ML.NET - Machine Learning Introduction&lt;/h5&gt;
